@@ -17,6 +17,7 @@
 		5D7F71B3218E50680071E4A1 /* WokePayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F71B2218E50680071E4A1 /* WokePayUITests.swift */; };
 		BA7AB23D7F75BA24762AF239 /* Pods_WokePayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */; };
 		CAA669A49588ACC2821AB9CA /* Pods_WokePayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */; };
+		E7BE2CFD218E93AB00560866 /* AH_test_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BE2CFC218E93AB00560866 /* AH_test_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8DC979703636842548362194 /* Pods_WokePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DC919E4B3268462A6C00A5 /* Pods-WokePayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayTests/Pods-WokePayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BE2CFC218E93AB00560866 /* AH_test_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AH_test_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				5D7F7192218E50670071E4A1 /* AppDelegate.swift */,
 				5D7F7194218E50670071E4A1 /* ViewController.swift */,
 				5D7F7196218E50670071E4A1 /* Main.storyboard */,
+				E7BE2CFC218E93AB00560866 /* AH_test_ViewController.swift */,
 				5D7F7199218E50680071E4A1 /* Assets.xcassets */,
 				5D7F719B218E50680071E4A1 /* LaunchScreen.storyboard */,
 				5D7F719E218E50680071E4A1 /* Info.plist */,
@@ -368,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7BE2CFD218E93AB00560866 /* AH_test_ViewController.swift in Sources */,
 				5D7F7195218E50670071E4A1 /* ViewController.swift in Sources */,
 				5D7F7193218E50670071E4A1 /* AppDelegate.swift in Sources */,
 			);
