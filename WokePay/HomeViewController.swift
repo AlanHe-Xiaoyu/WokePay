@@ -34,6 +34,11 @@ class HomeViewController: UIViewController, SwipeableCardViewDataSource {
         setUpTheAAChartView()
         
     }
+    override func viewDidDisappear(_ animated: Bool) {
+        self.view.resignFirstResponder()
+        self.worthCards.resignFirstResponder()
+        self.swipeableCardView.resignFirstResponder()
+    }
     
     func setUpTheAAChartView() {
         let chartViewWidth  = self.chartView.frame.size.width

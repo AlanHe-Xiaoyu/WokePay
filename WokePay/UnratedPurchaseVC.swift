@@ -19,6 +19,7 @@ class UnratedPurchaseVC: UIViewController, SwipeableCardViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         cards.dataSource = self
+       
         let labelTextAttributes: [NSAttributedString.Key : Any] = [.font: UIFont.systemFont(ofSize: 12, weight: .bold), .foregroundColor: UIColor.white]
         /*
         slider.attributedTextForFraction = { fraction in
@@ -43,7 +44,6 @@ class UnratedPurchaseVC: UIViewController, SwipeableCardViewDataSource {
             self?.setLabelHidden(false, animated: true)
         }
         */
-        
     }
     
 }
