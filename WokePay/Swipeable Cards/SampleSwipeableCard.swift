@@ -25,7 +25,7 @@ class SampleSwipeableCard: SwipeableCardViewCard {
     private weak var shadowView: UIView?
 
     /// Inner Margin
-    private static let kInnerMargin: CGFloat = 20.0
+    static let kInnerMargin: CGFloat = 20.0
 
     var viewModel: SampleSwipeableCellViewModel? {
         didSet {

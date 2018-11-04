@@ -1,24 +1,29 @@
 PODS:
+  - fluid-slider (1.0.0):
+    - pop
   - GradientProgressBar (1.2.4):
     - Observable
   - Observable (1.3.3)
   - pop (1.0.10)
 
 DEPENDENCIES:
+  - fluid-slider
   - GradientProgressBar (~> 1.0)
   - pop (= 1.0.10)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - fluid-slider
     - GradientProgressBar
     - Observable
     - pop
 
 SPEC CHECKSUMS:
+  fluid-slider: a19a991606a34a545cba9341e7422073b4ec3a66
   GradientProgressBar: 89bc1067cbc3a132d867b81778a32797b90a7fe2
   Observable: 360b0132cef970a50bc69611df7fcbda46e91c34
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
 
-PODFILE CHECKSUM: 3dc14c98b58f2660893bfb5d66172579255faa2e
+PODFILE CHECKSUM: 0f468e5c771fa358d06f6249ca0b12d10ee95c16
 
 COCOAPODS: 1.5.3

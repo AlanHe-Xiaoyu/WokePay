@@ -127,21 +127,50 @@
             </objects>
             <point key="canvasLocation" x="-163.19999999999999" y="133.00492610837438"/>
         </scene>
-        <!--View Controller-->
+        <!--Unrated PurchaseVC-->
         <scene sceneID="2xu-Sp-cjf">
             <objects>
-                <viewController id="aPU-SL-R2T" sceneMemberID="viewController">
+                <viewController id="aPU-SL-R2T" customClass="UnratedPurchaseVC" customModule="WokePay" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gUO-GX-rg5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lkY-xN-hCK" customClass="SwipeableCardViewContainer" customModule="WokePay" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="108" width="375" height="505"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="505" id="nIE-KJ-CSh"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unrated Transactions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSY-Sl-WdH">
+                                <rect key="frame" x="98.666666666666686" y="44" width="178" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="178" id="SOG-pC-GPp"/>
+                                    <constraint firstAttribute="height" constant="25" id="dGJ-1h-ZBS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lkY-xN-hCK" firstAttribute="top" secondItem="4Cp-6k-rsq" secondAttribute="top" constant="64" id="3aB-Ju-AGS"/>
+                            <constraint firstItem="lkY-xN-hCK" firstAttribute="trailing" secondItem="4Cp-6k-rsq" secondAttribute="trailing" id="VH0-cF-8Di"/>
+                            <constraint firstItem="iSY-Sl-WdH" firstAttribute="centerX" secondItem="gUO-GX-rg5" secondAttribute="centerX" id="Vnf-EO-8VM"/>
+                            <constraint firstItem="lkY-xN-hCK" firstAttribute="leading" secondItem="4Cp-6k-rsq" secondAttribute="leading" id="fuQ-aE-6iU"/>
+                            <constraint firstItem="iSY-Sl-WdH" firstAttribute="top" secondItem="4Cp-6k-rsq" secondAttribute="top" id="hqp-81-mNI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="4Cp-6k-rsq"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="grid-tab" id="z59-y0-jSB"/>
+                    <connections>
+                        <outlet property="cards" destination="lkY-xN-hCK" id="zDw-sf-pW5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SNs-N3-y4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1006" y="429"/>
+            <point key="canvasLocation" x="1005.6" y="428.57142857142861"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="d7K-7b-aRH">
