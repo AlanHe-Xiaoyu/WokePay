@@ -9,7 +9,11 @@
 import UIKit
 
 class AH_test_ViewController: UIViewController {
-
+    @IBOutlet weak var Test_B: UIButton!
+    
+    @IBAction func test_td(_ sender: Any) {
+        print("Hello World")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
