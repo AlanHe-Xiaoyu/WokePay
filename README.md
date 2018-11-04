@@ -10,10 +10,4 @@ Members of our team dreamed about having a personal finance app, WokePay, that c
 Our team plans on further developing the app so that we could incorporate the data analytics into WokePay by gathering more information from users to train for a better prediction/categorization model. <br/>
 <br/>
 
-<object width="425" height="350">
-  <param name="movie" value="https://youtu.be/LIbzlJjFIzc" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://youtu.be/LIbzlJjFIzc"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://youtu.be/LIbzlJjFIzc)
