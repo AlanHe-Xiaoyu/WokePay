@@ -21,7 +21,9 @@ class UnratedPurchaseVC: UIViewController, SwipeableCardViewDataSource {
         cards.dataSource = self
        
         let labelTextAttributes: [NSAttributedString.Key : Any] = [.font: UIFont.systemFont(ofSize: 12, weight: .bold), .foregroundColor: UIColor.white]
+        
         /*
+        let slider = Slider()
         slider.attributedTextForFraction = { fraction in
             let formatter = NumberFormatter()
             formatter.maximumIntegerDigits = 3
@@ -37,6 +39,7 @@ class UnratedPurchaseVC: UIViewController, SwipeableCardViewDataSource {
         slider.shadowColor = UIColor(white: 0, alpha: 0.1)
         slider.contentViewColor = UIColor(red: 78/255.0, green: 77/255.0, blue: 224/255.0, alpha: 1)
         slider.valueViewColor = .white
+        
         slider.didBeginTracking = { [weak self] _ in
             self?.setLabelHidden(true, animated: true)
         }
@@ -44,6 +47,7 @@ class UnratedPurchaseVC: UIViewController, SwipeableCardViewDataSource {
             self?.setLabelHidden(false, animated: true)
         }
         */
+        
     }
     
 }
@@ -57,7 +61,7 @@ extension UnratedPurchaseVC {
     func card(forItemAtIndex index: Int) -> SwipeableCardViewCard {
         let viewModel = viewModels[index]
         let cardView = PurchaseCard()
-        /*
+        
         cardView.slider?.attributedTextForFraction = { fraction in
             let formatter = NumberFormatter()
             formatter.maximumIntegerDigits = 3
@@ -65,15 +69,18 @@ extension UnratedPurchaseVC {
             let string = formatter.string(from: (fraction * 500) as NSNumber) ?? ""
             return NSAttributedString(string: string)
         }
-        cardView.slider?.setMinimumLabelAttributedText(NSAttributedString(string: "0"))
-        cardView.slider?.setMaximumLabelAttributedText(NSAttributedString(string: "10"))
+        cardView.slider?.setMinimumLabelAttributedText(NSAttributedString(string: "1"))
+        cardView.slider?.setMaximumLabelAttributedText(NSAttributedString(string: "100"))
         cardView.slider?.fraction = 0.5
         cardView.slider?.shadowOffset = CGSize(width: 0, height: 10)
         cardView.slider?.shadowBlur = 5
         cardView.slider?.shadowColor = UIColor(white: 0, alpha: 0.1)
         cardView.slider?.contentViewColor = UIColor(red: 78/255.0, green: 77/255.0, blue: 224/255.0, alpha: 1)
         cardView.slider?.valueViewColor = .white
-        */
+        
+        view.addSubview(cardView.slider)
+        //cardView.slider.addTarget(self, action: #selector(sliderValueChanged), for: .valueChanged)
+        
         cardView.viewModel = viewModel
         return cardView
     }
@@ -84,7 +91,7 @@ extension UnratedPurchaseVC {
     
     var viewModels: [PurchaseCardModel] {
         let a = PurchaseCardModel(name: "Burger",amount: "$8.60",date:"Nov 3, 2018",merchant:"Super Duper", color: UIColor.white,image: #imageLiteral(resourceName: "hamburger"))
-        let b = PurchaseCardModel(name: "AA",amount: "$200",date:"Nov 4, 2018",merchant:"Macy's", color: UIColor.white,image: #imageLiteral(resourceName: "hamburger"))
+        let b = PurchaseCardModel(name: "Metro",amount: "$2.50",date:"Nov 2, 2018",merchant:"NY Metro", color: UIColor.white,image: #imageLiteral(resourceName: "subway"))
         let c = PurchaseCardModel(name: "AA",amount: "$500",date:"Nov 4, 2018", merchant:"Saks Fifth Avenue", color: UIColor.white,image: #imageLiteral(resourceName: "hamburger"))
         return [a,b,c]
     }
