@@ -46,6 +46,40 @@
 		5DC19814218EDDC50047B098 /* PurchaseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC19813218EDDC50047B098 /* PurchaseCard.swift */; };
 		5DC19816218EDE790047B098 /* PurchaseCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC19815218EDE790047B098 /* PurchaseCardModel.swift */; };
 		5DC19818218EE0740047B098 /* UnratedPurchaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC19817218EE0740047B098 /* UnratedPurchaseVC.swift */; };
+		5DE52C5D218F4DF700417719 /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE52C5B218F4DD600417719 /* libPayPalMobile.a */; };
+		5DF0B158218F510A00C6E7E6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE52C5E218F508C00417719 /* MobileCoreServices.framework */; };
+		5DF0B15A218F513F00C6E7E6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B159218F513F00C6E7E6 /* OpenGLES.framework */; };
+		5DF0B15C218F514600C6E7E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B15B218F514600C6E7E6 /* QuartzCore.framework */; };
+		5DF0B15E218F516300C6E7E6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B15D218F516200C6E7E6 /* Accelerate.framework */; };
+		5DF0B160218F516C00C6E7E6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B15F218F516C00C6E7E6 /* AudioToolbox.framework */; };
+		5DF0B162218F517200C6E7E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B161218F517200C6E7E6 /* AVFoundation.framework */; };
+		5DF0B164218F517900C6E7E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B163218F517900C6E7E6 /* CoreGraphics.framework */; };
+		5DF0B166218F517F00C6E7E6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B165218F517F00C6E7E6 /* CoreLocation.framework */; };
+		5DF0B168218F518800C6E7E6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B167218F518800C6E7E6 /* CoreMedia.framework */; };
+		5DF0B16A218F518F00C6E7E6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B169218F518F00C6E7E6 /* CoreVideo.framework */; };
+		5DF0B16C218F519500C6E7E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B16B218F519500C6E7E6 /* Foundation.framework */; };
+		5DF0B16E218F519B00C6E7E6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B16D218F519B00C6E7E6 /* MessageUI.framework */; };
+		5DF0B170218F51B700C6E7E6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B16F218F51B700C6E7E6 /* Security.framework */; };
+		5DF0B172218F51BC00C6E7E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B171218F51BB00C6E7E6 /* SystemConfiguration.framework */; };
+		5DF0B174218F51C100C6E7E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B173218F51C100C6E7E6 /* UIKit.framework */; };
+		5DF0B176218F522100C6E7E6 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B175218F522100C6E7E6 /* AddViewController.swift */; };
+		5DF0B178218F562800C6E7E6 /* EmotionModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B177218F562700C6E7E6 /* EmotionModel.mlmodel */; };
+		5DF0B17C218F565700C6E7E6 /* Emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B179218F565500C6E7E6 /* Emotion.swift */; };
+		5DF0B17D218F565700C6E7E6 /* FaceRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B17A218F565600C6E7E6 /* FaceRecord.swift */; };
+		5DF0B17E218F565700C6E7E6 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B17B218F565600C6E7E6 /* Random.swift */; };
+		5DF0B180218F565F00C6E7E6 /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B17F218F565E00C6E7E6 /* Lorem.swift */; };
+		5DF0B182218F567F00C6E7E6 /* FaceTrackerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B181218F567E00C6E7E6 /* FaceTrackerController.swift */; };
+		5DF0B184218F571300C6E7E6 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B183218F571300C6E7E6 /* ARKit.framework */; };
+		5DF0B186218F571B00C6E7E6 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B185218F571B00C6E7E6 /* SceneKit.framework */; };
+		5DF0B18A218F585300C6E7E6 /* Ping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B189218F585300C6E7E6 /* Ping.swift */; };
+		5DF0B190218F58AC00C6E7E6 /* DownloadLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B18B218F58AA00C6E7E6 /* DownloadLine.swift */; };
+		5DF0B191218F58AC00C6E7E6 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B18C218F58AA00C6E7E6 /* UIDevice+Extensions.swift */; };
+		5DF0B192218F58AC00C6E7E6 /* DownloadWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B18D218F58AB00C6E7E6 /* DownloadWheel.swift */; };
+		5DF0B193218F58AC00C6E7E6 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B18E218F58AB00C6E7E6 /* Toast.swift */; };
+		5DF0B194218F58AC00C6E7E6 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B18F218F58AB00C6E7E6 /* Alert.swift */; };
+		5DF0B197218F592700C6E7E6 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B195218F592600C6E7E6 /* UIColor+Extensions.swift */; };
+		5DF0B198218F592700C6E7E6 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0B196218F592700C6E7E6 /* UIView+AutoLayout.swift */; };
+		5DF0B19A218F599300C6E7E6 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0B199218F599300C6E7E6 /* CoreML.framework */; };
 		BA7AB23D7F75BA24762AF239 /* Pods_WokePayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */; };
 		CAA669A49588ACC2821AB9CA /* Pods_WokePayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */; };
 /* End PBXBuildFile section */
@@ -115,6 +149,50 @@
 		5DC19813218EDDC50047B098 /* PurchaseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseCard.swift; sourceTree = "<group>"; };
 		5DC19815218EDE790047B098 /* PurchaseCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseCardModel.swift; sourceTree = "<group>"; };
 		5DC19817218EE0740047B098 /* UnratedPurchaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnratedPurchaseVC.swift; sourceTree = "<group>"; };
+		5DE52C4E218F4B5C00417719 /* PayPalMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalMobile.h; sourceTree = "<group>"; };
+		5DE52C4F218F4B5C00417719 /* PayPalPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPaymentViewController.h; sourceTree = "<group>"; };
+		5DE52C50218F4B5C00417719 /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		5DE52C51218F4B5C00417719 /* PayPalOAuthScopes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalOAuthScopes.h; sourceTree = "<group>"; };
+		5DE52C52218F4B5C00417719 /* PayPalFuturePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalFuturePaymentViewController.h; sourceTree = "<group>"; };
+		5DE52C53218F4B5C00417719 /* PayPalProfileSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalProfileSharingViewController.h; sourceTree = "<group>"; };
+		5DE52C54218F4B5C00417719 /* PayPalConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalConfiguration.h; sourceTree = "<group>"; };
+		5DE52C55218F4B5C00417719 /* libPayPalMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMobile.a; sourceTree = "<group>"; };
+		5DE52C57218F4BE200417719 /* PayPal-iOS-SDK-Sample-App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayPal-iOS-SDK-Sample-App-Bridging-Header.h"; sourceTree = "<group>"; };
+		5DE52C58218F4C6600417719 /* WokePay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WokePay-Bridging-Header.h"; sourceTree = "<group>"; };
+		5DE52C5B218F4DD600417719 /* libPayPalMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMobile.a; sourceTree = "<group>"; };
+		5DE52C5E218F508C00417719 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5DF0B159218F513F00C6E7E6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5DF0B15B218F514600C6E7E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5DF0B15D218F516200C6E7E6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		5DF0B15F218F516C00C6E7E6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5DF0B161218F517200C6E7E6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5DF0B163218F517900C6E7E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DF0B165218F517F00C6E7E6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5DF0B167218F518800C6E7E6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5DF0B169218F518F00C6E7E6 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5DF0B16B218F519500C6E7E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DF0B16D218F519B00C6E7E6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5DF0B16F218F51B700C6E7E6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5DF0B171218F51BB00C6E7E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5DF0B173218F51C100C6E7E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DF0B175218F522100C6E7E6 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		5DF0B177218F562700C6E7E6 /* EmotionModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EmotionModel.mlmodel; sourceTree = "<group>"; };
+		5DF0B179218F565500C6E7E6 /* Emotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emotion.swift; sourceTree = "<group>"; };
+		5DF0B17A218F565600C6E7E6 /* FaceRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceRecord.swift; sourceTree = "<group>"; };
+		5DF0B17B218F565600C6E7E6 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		5DF0B17F218F565E00C6E7E6 /* Lorem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lorem.swift; sourceTree = "<group>"; };
+		5DF0B181218F567E00C6E7E6 /* FaceTrackerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceTrackerController.swift; sourceTree = "<group>"; };
+		5DF0B183218F571300C6E7E6 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		5DF0B185218F571B00C6E7E6 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		5DF0B189218F585300C6E7E6 /* Ping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ping.swift; sourceTree = "<group>"; };
+		5DF0B18B218F58AA00C6E7E6 /* DownloadLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadLine.swift; sourceTree = "<group>"; };
+		5DF0B18C218F58AA00C6E7E6 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		5DF0B18D218F58AB00C6E7E6 /* DownloadWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadWheel.swift; sourceTree = "<group>"; };
+		5DF0B18E218F58AB00C6E7E6 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		5DF0B18F218F58AB00C6E7E6 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		5DF0B195218F592600C6E7E6 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		5DF0B196218F592700C6E7E6 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		5DF0B199218F599300C6E7E6 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
 		7B8DBBE893967B8425D6403F /* Pods-WokePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayTests/Pods-WokePayTests.release.xcconfig"; sourceTree = "<group>"; };
 		80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC979703636842548362194 /* Pods_WokePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +205,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF0B19A218F599300C6E7E6 /* CoreML.framework in Frameworks */,
+				5DF0B186218F571B00C6E7E6 /* SceneKit.framework in Frameworks */,
+				5DF0B184218F571300C6E7E6 /* ARKit.framework in Frameworks */,
+				5DF0B174218F51C100C6E7E6 /* UIKit.framework in Frameworks */,
+				5DF0B172218F51BC00C6E7E6 /* SystemConfiguration.framework in Frameworks */,
+				5DF0B170218F51B700C6E7E6 /* Security.framework in Frameworks */,
+				5DF0B158218F510A00C6E7E6 /* MobileCoreServices.framework in Frameworks */,
+				5DF0B16E218F519B00C6E7E6 /* MessageUI.framework in Frameworks */,
+				5DF0B16C218F519500C6E7E6 /* Foundation.framework in Frameworks */,
+				5DF0B16A218F518F00C6E7E6 /* CoreVideo.framework in Frameworks */,
+				5DF0B168218F518800C6E7E6 /* CoreMedia.framework in Frameworks */,
+				5DF0B166218F517F00C6E7E6 /* CoreLocation.framework in Frameworks */,
+				5DF0B164218F517900C6E7E6 /* CoreGraphics.framework in Frameworks */,
+				5DF0B162218F517200C6E7E6 /* AVFoundation.framework in Frameworks */,
+				5DF0B160218F516C00C6E7E6 /* AudioToolbox.framework in Frameworks */,
+				5DF0B15E218F516300C6E7E6 /* Accelerate.framework in Frameworks */,
+				5DF0B15C218F514600C6E7E6 /* QuartzCore.framework in Frameworks */,
+				5DF0B15A218F513F00C6E7E6 /* OpenGLES.framework in Frameworks */,
+				5DE52C5D218F4DF700417719 /* libPayPalMobile.a in Frameworks */,
 				0CDB9486A6CA4AF53446D38F /* Pods_WokePay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +250,24 @@
 		141FE60F44BEEFB63C2E1A66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5DF0B199218F599300C6E7E6 /* CoreML.framework */,
+				5DF0B185218F571B00C6E7E6 /* SceneKit.framework */,
+				5DF0B183218F571300C6E7E6 /* ARKit.framework */,
+				5DF0B173218F51C100C6E7E6 /* UIKit.framework */,
+				5DF0B171218F51BB00C6E7E6 /* SystemConfiguration.framework */,
+				5DF0B16F218F51B700C6E7E6 /* Security.framework */,
+				5DF0B16D218F519B00C6E7E6 /* MessageUI.framework */,
+				5DF0B16B218F519500C6E7E6 /* Foundation.framework */,
+				5DF0B169218F518F00C6E7E6 /* CoreVideo.framework */,
+				5DF0B167218F518800C6E7E6 /* CoreMedia.framework */,
+				5DF0B165218F517F00C6E7E6 /* CoreLocation.framework */,
+				5DF0B163218F517900C6E7E6 /* CoreGraphics.framework */,
+				5DF0B161218F517200C6E7E6 /* AVFoundation.framework */,
+				5DF0B15F218F516C00C6E7E6 /* AudioToolbox.framework */,
+				5DF0B15D218F516200C6E7E6 /* Accelerate.framework */,
+				5DF0B15B218F514600C6E7E6 /* QuartzCore.framework */,
+				5DF0B159218F513F00C6E7E6 /* OpenGLES.framework */,
+				5DE52C5E218F508C00417719 /* MobileCoreServices.framework */,
 				8DC979703636842548362194 /* Pods_WokePay.framework */,
 				B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */,
 				80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */,
@@ -210,14 +325,31 @@
 			children = (
 				5D7F7192218E50670071E4A1 /* AppDelegate.swift */,
 				5DC19817218EE0740047B098 /* UnratedPurchaseVC.swift */,
+				5DF0B177218F562700C6E7E6 /* EmotionModel.mlmodel */,
 				5D7F7194218E50670071E4A1 /* HomeViewController.swift */,
+				5DF0B181218F567E00C6E7E6 /* FaceTrackerController.swift */,
+				5DF0B175218F522100C6E7E6 /* AddViewController.swift */,
+				5DE52C4D218F4B5C00417719 /* PayPalMobile */,
 				5DC19806218ED6270047B098 /* AAChartCreator */,
 				5D735F30218EA227007F98F5 /* YY_test_ViewController.swift */,
+				5DE52C57218F4BE200417719 /* PayPal-iOS-SDK-Sample-App-Bridging-Header.h */,
 				5D735F5B218EA4E8007F98F5 /* Swipeable Cards */,
 				5D735F32218EA227007F98F5 /* YY_test.storyboard */,
 				5D735F38218EA3A1007F98F5 /* SampleSwipeableCard.xib */,
 				5DC19811218EDD810047B098 /* PurchaseCard.xib */,
 				5D735F59218EA477007F98F5 /* Main.storyboard */,
+				5DF0B18F218F58AB00C6E7E6 /* Alert.swift */,
+				5DF0B18B218F58AA00C6E7E6 /* DownloadLine.swift */,
+				5DF0B18D218F58AB00C6E7E6 /* DownloadWheel.swift */,
+				5DF0B18E218F58AB00C6E7E6 /* Toast.swift */,
+				5DF0B18C218F58AA00C6E7E6 /* UIDevice+Extensions.swift */,
+				5DF0B17F218F565E00C6E7E6 /* Lorem.swift */,
+				5DF0B179218F565500C6E7E6 /* Emotion.swift */,
+				5DF0B17A218F565600C6E7E6 /* FaceRecord.swift */,
+				5DF0B195218F592600C6E7E6 /* UIColor+Extensions.swift */,
+				5DF0B196218F592700C6E7E6 /* UIView+AutoLayout.swift */,
+				5DF0B17B218F565600C6E7E6 /* Random.swift */,
+				5DF0B189218F585300C6E7E6 /* Ping.swift */,
 				5DC197E1218EB44E0047B098 /* AH_test_ViewController.swift */,
 				5DC197DF218EB44E0047B098 /* Alan_test.storyboard */,
 				5D735F39218EA3A1007F98F5 /* StaticShadowHeaderView.xib */,
@@ -225,6 +357,7 @@
 				5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */,
 				5D7F7199218E50680071E4A1 /* Assets.xcassets */,
 				5D7F719B218E50680071E4A1 /* LaunchScreen.storyboard */,
+				5DE52C58218F4C6600417719 /* WokePay-Bridging-Header.h */,
 			);
 			path = WokePay;
 			sourceTree = "<group>";
@@ -257,6 +390,22 @@
 				5DC1980A218ED6270047B098 /* AASeriesElement.swift */,
 			);
 			path = AAChartCreator;
+			sourceTree = "<group>";
+		};
+		5DE52C4D218F4B5C00417719 /* PayPalMobile */ = {
+			isa = PBXGroup;
+			children = (
+				5DE52C4E218F4B5C00417719 /* PayPalMobile.h */,
+				5DE52C4F218F4B5C00417719 /* PayPalPaymentViewController.h */,
+				5DE52C50218F4B5C00417719 /* PayPalPayment.h */,
+				5DE52C51218F4B5C00417719 /* PayPalOAuthScopes.h */,
+				5DE52C5B218F4DD600417719 /* libPayPalMobile.a */,
+				5DE52C52218F4B5C00417719 /* PayPalFuturePaymentViewController.h */,
+				5DE52C53218F4B5C00417719 /* PayPalProfileSharingViewController.h */,
+				5DE52C54218F4B5C00417719 /* PayPalConfiguration.h */,
+				5DE52C55218F4B5C00417719 /* libPayPalMobile.a */,
+			);
+			path = PayPalMobile;
 			sourceTree = "<group>";
 		};
 		9A3D00DB4551FA7574795214 /* Pods */ = {
@@ -344,6 +493,7 @@
 				TargetAttributes = {
 					5D7F718E218E50670071E4A1 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					5D7F71A2218E50680071E4A1 = {
 						CreatedOnToolsVersion = 10.0;
@@ -512,8 +662,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF0B193218F58AC00C6E7E6 /* Toast.swift in Sources */,
 				5D735F56218EA3C1007F98F5 /* CGRect+SwipeAdditions.swift in Sources */,
+				5DF0B190218F58AC00C6E7E6 /* DownloadLine.swift in Sources */,
 				5D735F51218EA3C1007F98F5 /* StaticShadowHeaderView.swift in Sources */,
+				5DF0B17E218F565700C6E7E6 /* Random.swift in Sources */,
+				5DF0B198218F592700C6E7E6 /* UIView+AutoLayout.swift in Sources */,
 				5D735F4E218EA3C1007F98F5 /* SwipeableViewDelegate.swift in Sources */,
 				5D7F7195218E50670071E4A1 /* HomeViewController.swift in Sources */,
 				5D735F52218EA3C1007F98F5 /* UIView+Constraints.swift in Sources */,
@@ -522,21 +676,32 @@
 				5D735F55218EA3C1007F98F5 /* SwipeableCardViewCard.swift in Sources */,
 				5DC19816218EDE790047B098 /* PurchaseCardModel.swift in Sources */,
 				5D735F4C218EA3C1007F98F5 /* SwipeableCardViewDelegate.swift in Sources */,
+				5DF0B17D218F565700C6E7E6 /* FaceRecord.swift in Sources */,
+				5DF0B191218F58AC00C6E7E6 /* UIDevice+Extensions.swift in Sources */,
 				5D735F4F218EA3C1007F98F5 /* SwipeableView.swift in Sources */,
+				5DF0B197218F592700C6E7E6 /* UIColor+Extensions.swift in Sources */,
 				5DC197E4218EB44E0047B098 /* AH_test_ViewController.swift in Sources */,
 				5D7F7193218E50670071E4A1 /* AppDelegate.swift in Sources */,
+				5DF0B18A218F585300C6E7E6 /* Ping.swift in Sources */,
+				5DF0B178218F562800C6E7E6 /* EmotionModel.mlmodel in Sources */,
 				5D735F34218EA227007F98F5 /* YY_test_ViewController.swift in Sources */,
 				5DC1980E218ED6270047B098 /* AASeriesElement.swift in Sources */,
+				5DF0B180218F565F00C6E7E6 /* Lorem.swift in Sources */,
 				5D735F53218EA3C1007F98F5 /* SampleSwipeableCard.swift in Sources */,
+				5DF0B194218F58AC00C6E7E6 /* Alert.swift in Sources */,
 				5D735F4D218EA3C1007F98F5 /* SwipeableCardViewContainer.swift in Sources */,
+				5DF0B182218F567F00C6E7E6 /* FaceTrackerController.swift in Sources */,
 				5DC1980B218ED6270047B098 /* AAChartView.swift in Sources */,
 				5D735F54218EA3C1007F98F5 /* SampleSwipeableCellViewModel.swift in Sources */,
+				5DF0B192218F58AC00C6E7E6 /* DownloadWheel.swift in Sources */,
 				5DC19814218EDDC50047B098 /* PurchaseCard.swift in Sources */,
 				5D735F57218EA3C1007F98F5 /* CGPoint+SwipeableAdditions.swift in Sources */,
 				5DC19818218EE0740047B098 /* UnratedPurchaseVC.swift in Sources */,
 				5DC1980D218ED6270047B098 /* AASerializable.swift in Sources */,
 				5D735F50218EA3C1007F98F5 /* SwipeableCardViewDataSource.swift in Sources */,
+				5DF0B176218F522100C6E7E6 /* AddViewController.swift in Sources */,
 				5D735F4B218EA3C1007F98F5 /* NibView.swift in Sources */,
+				5DF0B17C218F565700C6E7E6 /* Emotion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,6 +869,7 @@
 			baseConfigurationReference = 508E35EDB76C6B0CEED791AB /* Pods-WokePay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZV24RZ776;
 				INFOPLIST_FILE = WokePay/Info.plist;
@@ -711,9 +877,28 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WokePay/PayPalMobile",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"GradientProgressBar\"",
+					"-framework",
+					"\"Observable\"",
+					"-framework",
+					"\"fluid_slider\"",
+					"-framework",
+					"\"pop\"",
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePay;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WokePay/WokePay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -724,6 +909,7 @@
 			baseConfigurationReference = 0771E59ACC4F8D6ED6A188B8 /* Pods-WokePay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZV24RZ776;
 				INFOPLIST_FILE = WokePay/Info.plist;
@@ -731,9 +917,27 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WokePay/PayPalMobile",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"GradientProgressBar\"",
+					"-framework",
+					"\"Observable\"",
+					"-framework",
+					"\"fluid_slider\"",
+					"-framework",
+					"\"pop\"",
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePay;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WokePay/WokePay-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
