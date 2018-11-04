@@ -68,17 +68,25 @@
                                     <constraint firstAttribute="height" constant="200" id="Dea-Ce-M4N"/>
                                 </constraints>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b9x-wB-f49">
+                                <rect key="frame" x="16" y="431" width="343" height="271"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="b9x-wB-f49" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0ys-bh-qQa"/>
                             <constraint firstItem="3du-Gw-Hzn" firstAttribute="top" secondItem="Zn5-38-wyW" secondAttribute="bottom" constant="2.6666666666666572" id="Cmy-6q-zUC"/>
                             <constraint firstItem="3du-Gw-Hzn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Gr1-EP-FkI"/>
                             <constraint firstItem="G8v-1W-3rj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HTR-7l-nbF"/>
                             <constraint firstItem="Zn5-38-wyW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="Jbb-7A-Pnz"/>
                             <constraint firstItem="G8v-1W-3rj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="KLd-st-oRv"/>
                             <constraint firstItem="G8v-1W-3rj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KaP-pr-dXj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b9x-wB-f49" secondAttribute="trailing" constant="16" id="Y53-9K-kJy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zn5-38-wyW" secondAttribute="trailing" constant="49" id="bCC-oh-zcJ"/>
+                            <constraint firstItem="b9x-wB-f49" firstAttribute="top" secondItem="3du-Gw-Hzn" secondAttribute="bottom" constant="21" id="el0-vC-wwa"/>
                             <constraint firstItem="3du-Gw-Hzn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hwX-Zp-qfC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b9x-wB-f49" secondAttribute="bottom" constant="27" id="lFo-Yf-8Qv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G8v-1W-3rj" secondAttribute="trailing" constant="16" id="rQj-ha-Vhb"/>
                             <constraint firstItem="Zn5-38-wyW" firstAttribute="top" secondItem="G8v-1W-3rj" secondAttribute="bottom" constant="13" id="zcf-Fr-zdb"/>
                         </constraints>
@@ -86,6 +94,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="home-tab" id="WRh-SF-Mmr"/>
                     <connections>
+                        <outlet property="chartView" destination="b9x-wB-f49" id="r5R-64-HVp"/>
                         <outlet property="overview" destination="G8v-1W-3rj" id="J68-eJ-Gp1"/>
                         <outlet property="swipeableCardView" destination="w8K-oz-Scp" id="JNP-R5-hCO"/>
                         <outlet property="worthCards" destination="MIU-bI-Djw" id="K2k-Jq-kJg"/>

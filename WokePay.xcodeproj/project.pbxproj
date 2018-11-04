@@ -37,6 +37,11 @@
 		5D7F71B3218E50680071E4A1 /* WokePayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F71B2218E50680071E4A1 /* WokePayUITests.swift */; };
 		5DC197E2218EB44E0047B098 /* Alan_test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC197DF218EB44E0047B098 /* Alan_test.storyboard */; };
 		5DC197E4218EB44E0047B098 /* AH_test_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC197E1218EB44E0047B098 /* AH_test_ViewController.swift */; };
+		5DC1980B218ED6270047B098 /* AAChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC19807218ED6270047B098 /* AAChartView.swift */; };
+		5DC1980C218ED6270047B098 /* AAChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC19808218ED6270047B098 /* AAChartModel.swift */; };
+		5DC1980D218ED6270047B098 /* AASerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC19809218ED6270047B098 /* AASerializable.swift */; };
+		5DC1980E218ED6270047B098 /* AASeriesElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC1980A218ED6270047B098 /* AASeriesElement.swift */; };
+		5DC19810218ED8A20047B098 /* AAJSFiles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DC1980F218ED8A20047B098 /* AAJSFiles.bundle */; };
 		BA7AB23D7F75BA24762AF239 /* Pods_WokePayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */; };
 		CAA669A49588ACC2821AB9CA /* Pods_WokePayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */; };
 /* End PBXBuildFile section */
@@ -97,6 +102,11 @@
 		5D7F71B4218E50680071E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DC197DF218EB44E0047B098 /* Alan_test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alan_test.storyboard; sourceTree = "<group>"; };
 		5DC197E1218EB44E0047B098 /* AH_test_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AH_test_ViewController.swift; sourceTree = "<group>"; };
+		5DC19807218ED6270047B098 /* AAChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAChartView.swift; sourceTree = "<group>"; };
+		5DC19808218ED6270047B098 /* AAChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAChartModel.swift; sourceTree = "<group>"; };
+		5DC19809218ED6270047B098 /* AASerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AASerializable.swift; sourceTree = "<group>"; };
+		5DC1980A218ED6270047B098 /* AASeriesElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AASeriesElement.swift; sourceTree = "<group>"; };
+		5DC1980F218ED8A20047B098 /* AAJSFiles.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AAJSFiles.bundle; sourceTree = "<group>"; };
 		7B8DBBE893967B8425D6403F /* Pods-WokePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayTests/Pods-WokePayTests.release.xcconfig"; sourceTree = "<group>"; };
 		80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC979703636842548362194 /* Pods_WokePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,6 +200,7 @@
 			children = (
 				5D7F7192218E50670071E4A1 /* AppDelegate.swift */,
 				5D7F7194218E50670071E4A1 /* HomeViewController.swift */,
+				5DC19806218ED6270047B098 /* AAChartCreator */,
 				5D735F30218EA227007F98F5 /* YY_test_ViewController.swift */,
 				5D735F5B218EA4E8007F98F5 /* Swipeable Cards */,
 				5D735F32218EA227007F98F5 /* YY_test.storyboard */,
@@ -222,6 +233,18 @@
 				5D7F71B4218E50680071E4A1 /* Info.plist */,
 			);
 			path = WokePayUITests;
+			sourceTree = "<group>";
+		};
+		5DC19806218ED6270047B098 /* AAChartCreator */ = {
+			isa = PBXGroup;
+			children = (
+				5DC1980F218ED8A20047B098 /* AAJSFiles.bundle */,
+				5DC19807218ED6270047B098 /* AAChartView.swift */,
+				5DC19808218ED6270047B098 /* AAChartModel.swift */,
+				5DC19809218ED6270047B098 /* AASerializable.swift */,
+				5DC1980A218ED6270047B098 /* AASeriesElement.swift */,
+			);
+			path = AAChartCreator;
 			sourceTree = "<group>";
 		};
 		9A3D00DB4551FA7574795214 /* Pods */ = {
@@ -349,6 +372,7 @@
 				5D735F36218EA227007F98F5 /* YY_test.storyboard in Resources */,
 				5D1E04D7218E940D00485FB0 /* PayDemo.storyboard in Resources */,
 				5D7F719D218E50680071E4A1 /* LaunchScreen.storyboard in Resources */,
+				5DC19810218ED8A20047B098 /* AAJSFiles.bundle in Resources */,
 				5D735F3C218EA3A1007F98F5 /* StaticShadowHeaderView.xib in Resources */,
 				5D735F5A218EA477007F98F5 /* Main.storyboard in Resources */,
 				5D735F3A218EA3A1007F98F5 /* SwipeableCardViewCard.xib in Resources */,
@@ -405,7 +429,6 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WokePay/Pods-WokePay-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AAInfographics/AAInfographics.framework",
 				"${BUILT_PRODUCTS_DIR}/GradientProgressBar/GradientProgressBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Observable/Observable.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
@@ -414,7 +437,6 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AAInfographics.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GradientProgressBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Observable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
@@ -481,16 +503,20 @@
 				5D7F7195218E50670071E4A1 /* HomeViewController.swift in Sources */,
 				5D735F52218EA3C1007F98F5 /* UIView+Constraints.swift in Sources */,
 				5D735F58218EA3C1007F98F5 /* SwipeDirection.swift in Sources */,
+				5DC1980C218ED6270047B098 /* AAChartModel.swift in Sources */,
 				5D735F55218EA3C1007F98F5 /* SwipeableCardViewCard.swift in Sources */,
 				5D735F4C218EA3C1007F98F5 /* SwipeableCardViewDelegate.swift in Sources */,
 				5D735F4F218EA3C1007F98F5 /* SwipeableView.swift in Sources */,
 				5DC197E4218EB44E0047B098 /* AH_test_ViewController.swift in Sources */,
 				5D7F7193218E50670071E4A1 /* AppDelegate.swift in Sources */,
 				5D735F34218EA227007F98F5 /* YY_test_ViewController.swift in Sources */,
+				5DC1980E218ED6270047B098 /* AASeriesElement.swift in Sources */,
 				5D735F53218EA3C1007F98F5 /* SampleSwipeableCard.swift in Sources */,
 				5D735F4D218EA3C1007F98F5 /* SwipeableCardViewContainer.swift in Sources */,
+				5DC1980B218ED6270047B098 /* AAChartView.swift in Sources */,
 				5D735F54218EA3C1007F98F5 /* SampleSwipeableCellViewModel.swift in Sources */,
 				5D735F57218EA3C1007F98F5 /* CGPoint+SwipeableAdditions.swift in Sources */,
+				5DC1980D218ED6270047B098 /* AASerializable.swift in Sources */,
 				5D735F50218EA3C1007F98F5 /* SwipeableCardViewDataSource.swift in Sources */,
 				5D735F4B218EA3C1007F98F5 /* NibView.swift in Sources */,
 			);
