@@ -209,7 +209,7 @@ extension HomeViewController {
         
         let shopping = SampleSwipeableCellViewModel(title: "Shopping",
                                                  color: UIColor(red:0.29, green:0.64, blue:0.96, alpha:1.0),
-                                                 image: #imageLiteral(resourceName: "Shoppping"))
+                                                 image: #imageLiteral(resourceName: "shoppingcart"))
         
         let food = SampleSwipeableCellViewModel(title: "Food",
                                                  color: UIColor(red:0.29, green:0.63, blue:0.49, alpha:1.0),

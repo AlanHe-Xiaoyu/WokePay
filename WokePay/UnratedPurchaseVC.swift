@@ -83,7 +83,7 @@ extension UnratedPurchaseVC {
 extension UnratedPurchaseVC {
     
     var viewModels: [PurchaseCardModel] {
-        let a = PurchaseCardModel(name: "AA",amount: "$100",date:"Nov 4, 2018",merchant:"American Airlines", color: UIColor.white,image: #imageLiteral(resourceName: "hamburger"))
+        let a = PurchaseCardModel(name: "Burger",amount: "$8.60",date:"Nov 3, 2018",merchant:"Super Duper", color: UIColor.white,image: #imageLiteral(resourceName: "hamburger"))
         let b = PurchaseCardModel(name: "AA",amount: "$200",date:"Nov 4, 2018",merchant:"Macy's", color: UIColor.white,image: #imageLiteral(resourceName: "hamburger"))
         let c = PurchaseCardModel(name: "AA",amount: "$500",date:"Nov 4, 2018", merchant:"Saks Fifth Avenue", color: UIColor.white,image: #imageLiteral(resourceName: "hamburger"))
         return [a,b,c]
