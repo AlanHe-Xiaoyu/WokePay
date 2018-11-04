@@ -23,6 +23,7 @@ class AddViewController: FaceTrackerController, PayPalPaymentDelegate, PayPalFut
     var payPalConfig = PayPalConfiguration() // default
     var currentEmotion: Emotion = .unknown
     
+    @IBOutlet var indexL: UILabel!
     @IBOutlet var emotionLabel: UILabel!
     let threshhold: Double = 0.6
     
@@ -77,12 +78,14 @@ class AddViewController: FaceTrackerController, PayPalPaymentDelegate, PayPalFut
         }
         
         DispatchQueue.main.async {
-            /*
-            let a = prediction.output1[0]
-            let b = prediction.output1[1]
- */
+            
+            let a = self.emotionProbabilities[.happy]?.doubleValue
+            let b = self.emotionProbabilities[.sad]?.doubleValue
+        
+ 
             self.emotionLabel.text = self.currentEmotion.rawValue.capitalized
-            //print((a.value.doubleValue) - (b.value.doubleValue) * 5 + 5)
+            let c:String = String(format:"%.1f", (a!-b!) * 5 + 5)
+            self.indexL.text = c
         }
     }
 
@@ -107,6 +110,59 @@ class AddViewController: FaceTrackerController, PayPalPaymentDelegate, PayPalFut
     }
     */
 
+    @IBAction func buyClothingAction2(_ sender: AnyObject) {
+        // Remove our last completed payment, just for demo purposes.
+        resultText = ""
+        
+        // Note: For purposes of illustration, this example shows a payment that includes
+        //       both payment details (subtotal, shipping, tax) and multiple items.
+        //       You would only specify these if appropriate to your situation.
+        //       Otherwise, you can leave payment.items and/or payment.paymentDetails nil,
+        //       and simply set payment.amount to your total charge.
+        
+        // Optional: include multiple items
+    
+        let alert = UIAlertController(title: "Are you sure?", message: "Are you sure? You impulse index for this category is high.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Maybe not.", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "I insist", style: .default, handler: { action in
+            let item1 = PayPalItem(name: "Old jeans with holes", withQuantity: 2, withPrice: NSDecimalNumber(string: "84.99"), withCurrency: "USD", withSku: "Hip-0037")
+            let item2 = PayPalItem(name: "Free rainbow patch", withQuantity: 1, withPrice: NSDecimalNumber(string: "0.00"), withCurrency: "USD", withSku: "Hip-00066")
+            let item3 = PayPalItem(name: "Long-sleeve plaid shirt (mustache not included)", withQuantity: 1, withPrice: NSDecimalNumber(string: "37.99"), withCurrency: "USD", withSku: "Hip-00291")
+            
+            let items = [item1, item2, item3]
+            let subtotal = PayPalItem.totalPrice(forItems: items)
+            
+            // Optional: include payment details
+            let shipping = NSDecimalNumber(string: "5.99")
+            let tax = NSDecimalNumber(string: "2.50")
+            let paymentDetails = PayPalPaymentDetails(subtotal: subtotal, withShipping: shipping, withTax: tax)
+            
+            let total = subtotal.adding(shipping).adding(tax)
+            
+            let payment = PayPalPayment(amount: total, currencyCode: "USD", shortDescription: "Hipster Clothing", intent: .sale)
+            
+            payment.items = items
+            payment.paymentDetails = paymentDetails
+            
+            if (payment.processable) {
+                let paymentViewController = PayPalPaymentViewController(payment: payment, configuration: self.payPalConfig, delegate: self)
+                self.present(paymentViewController!, animated: true, completion: nil)
+            }
+            else {
+                // This particular payment will always be processable. If, for
+                // example, the amount was negative or the shortDescription was
+                // empty, this payment wouldn't be processable, and you'd want
+                // to handle that here.
+                print("Payment not processalbe: \(payment)")
+            }
+        }))
+        self.present(alert, animated: true, completion: nil)
+        
+        
+    }
+    
+   
+   
     @IBAction func buyClothingAction(_ sender: AnyObject) {
         // Remove our last completed payment, just for demo purposes.
         resultText = ""

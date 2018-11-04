@@ -181,9 +181,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsE-nB-uci">
-                                <rect key="frame" x="164" y="162" width="46" height="30"/>
+                                <rect key="frame" x="128" y="162" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Normal Purchase"/>
                                 <connections>
                                     <action selector="buyClothingAction:" destination="Drl-1w-bDr" eventType="touchUpInside" id="Kvg-uU-l5t"/>
                                 </connections>
@@ -209,6 +209,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Impulse Index:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B62-Yn-oVM">
+                                <rect key="frame" x="127" y="365" width="111" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHQ-VP-L9x">
+                                <rect key="frame" x="136" y="394" width="102" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uze-JR-ypn">
+                                <rect key="frame" x="107" y="449" width="161" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Impulsive Purchase"/>
+                                <connections>
+                                    <action selector="buyClothingAction2:" destination="Drl-1w-bDr" eventType="touchUpInside" id="eVH-LP-uez"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="SzC-oM-bGX"/>
@@ -216,6 +238,7 @@
                     <tabBarItem key="tabBarItem" title="" image="plus-tab" id="XDO-Z1-ejj"/>
                     <connections>
                         <outlet property="emotionLabel" destination="Wiq-AV-9Jz" id="99F-XE-wTV"/>
+                        <outlet property="indexL" destination="hHQ-VP-L9x" id="JeN-0P-Jva"/>
                         <outlet property="successView" destination="c9W-J2-k88" id="ui8-id-snS"/>
                     </connections>
                 </viewController>
