@@ -1,21 +1,21 @@
 class Plan
 {
 	var all_purchases : [String : [Purchase]] = [
-        ‘transport’: [String](), 
-        ‘education’: [String](),
-        ‘health’:  [String](),
-        ‘shopping’: [String](), 
-        ‘entertainment’: [String](),
-        ‘food’: [String]()
+        'transport’: [String](),
+        'education’: [String](),
+        'health’:  [String](),
+        'shopping’: [String](),
+        'entertainment’: [String](),
+        'food’: [String]()
     ]
 
     var category_budget : [String : Int] = [
-        ‘transport’: 0,
-        ‘education’: 0,
-        ‘health’:  0,
-        ‘shopping’: 0, 
-        ‘entertainment’: 0,
-        ‘food’: 0
+        'transport’: 0,
+        'education’: 0,
+        'health’:  0,
+        'shopping’: 0,
+        'entertainment’: 0,
+        'food’: 0
     ]
 
     init(budget: Int)
@@ -114,7 +114,7 @@ class Purchase
 
 	func measure_type() -> String
     {
-        self.impulsion = (self.emo - self.feedback + 9) / 18
+        self.impulsion = (self.emo - self.feedback + 10) / 20
         self.impulse_proportion = self.impulsion * self.price
 
 	    if self.impulsion > 0.5

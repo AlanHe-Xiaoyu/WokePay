@@ -75,16 +75,16 @@ class Purchase(object):
 		self.price = price
 		current_plan.add_purchase(self)
 
-	def apply_emo(self, emo_index): # emo_index in range [1, 10]
+	def apply_emo(self, emo_index): # emo_index in range [0, 10]
 		self.emo = emo_index
 
-	def apply_feedback(self, fb_index=0): # fb_index in range [1, 10]
+	def apply_feedback(self, fb_index=0): # fb_index in range [0, 10]
 		self.feedback = fb_index
 		self.rated = True
 
 	def measure_type(self):
-		# self.emo - self.feedback in range [-9, 9]
-		self.impulsion = (- self.emo + self.feedback + 9) / 18 # Ranges from 0 to 1, with Neutral value at 0.5
+		# self.emo - self.feedback in range [-10, 10]
+		self.impulsion = (- self.emo + self.feedback + 10) / 20 # Ranges from 0 to 1, with Neutral value at 0.5
 		self.impulse_proportion = self.impulsion * self.price
 
 		if self.impulsion < 0.5:
