@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		0CDB9486A6CA4AF53446D38F /* Pods_WokePay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC979703636842548362194 /* Pods_WokePay.framework */; };
 		5D1E04D7218E940D00485FB0 /* PayDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */; };
-		5D735F33218EA227007F98F5 /* Alan_test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D735F2F218EA227007F98F5 /* Alan_test.storyboard */; };
 		5D735F34218EA227007F98F5 /* YY_test_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D735F30218EA227007F98F5 /* YY_test_ViewController.swift */; };
-		5D735F35218EA227007F98F5 /* AH_test_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D735F31218EA227007F98F5 /* AH_test_ViewController.swift */; };
 		5D735F36218EA227007F98F5 /* YY_test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D735F32218EA227007F98F5 /* YY_test.storyboard */; };
 		5D735F3A218EA3A1007F98F5 /* SwipeableCardViewCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D735F37218EA3A1007F98F5 /* SwipeableCardViewCard.xib */; };
 		5D735F3B218EA3A1007F98F5 /* SampleSwipeableCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D735F38218EA3A1007F98F5 /* SampleSwipeableCard.xib */; };
@@ -64,9 +62,7 @@
 		1C4A67B7467533915228B8BF /* Pods-WokePayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayUITests/Pods-WokePayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		508E35EDB76C6B0CEED791AB /* Pods-WokePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WokePay/Pods-WokePay.debug.xcconfig"; sourceTree = "<group>"; };
 		5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PayDemo.storyboard; sourceTree = "<group>"; };
-		5D735F2F218EA227007F98F5 /* Alan_test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alan_test.storyboard; sourceTree = "<group>"; };
 		5D735F30218EA227007F98F5 /* YY_test_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YY_test_ViewController.swift; sourceTree = "<group>"; };
-		5D735F31218EA227007F98F5 /* AH_test_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AH_test_ViewController.swift; sourceTree = "<group>"; };
 		5D735F32218EA227007F98F5 /* YY_test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YY_test.storyboard; sourceTree = "<group>"; };
 		5D735F37218EA3A1007F98F5 /* SwipeableCardViewCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwipeableCardViewCard.xib; sourceTree = "<group>"; };
 		5D735F38218EA3A1007F98F5 /* SampleSwipeableCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleSwipeableCard.xib; sourceTree = "<group>"; };
@@ -91,7 +87,6 @@
 		5D7F7194218E50670071E4A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5D7F7199218E50680071E4A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D7F719C218E50680071E4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5D7F719E218E50680071E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D7F71A3218E50680071E4A1 /* WokePayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WokePayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7F71A7218E50680071E4A1 /* WokePayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WokePayTests.swift; sourceTree = "<group>"; };
 		5D7F71A9218E50680071E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -191,8 +186,6 @@
 			children = (
 				5D7F7192218E50670071E4A1 /* AppDelegate.swift */,
 				5D7F7194218E50670071E4A1 /* HomeViewController.swift */,
-				5D735F31218EA227007F98F5 /* AH_test_ViewController.swift */,
-				5D735F2F218EA227007F98F5 /* Alan_test.storyboard */,
 				5D735F30218EA227007F98F5 /* YY_test_ViewController.swift */,
 				5D735F5B218EA4E8007F98F5 /* Swipeable Cards */,
 				5D735F32218EA227007F98F5 /* YY_test.storyboard */,
@@ -203,7 +196,6 @@
 				5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */,
 				5D7F7199218E50680071E4A1 /* Assets.xcassets */,
 				5D7F719B218E50680071E4A1 /* LaunchScreen.storyboard */,
-				5D7F719E218E50680071E4A1 /* Info.plist */,
 			);
 			path = WokePay;
 			sourceTree = "<group>";
@@ -350,7 +342,6 @@
 				5D735F3B218EA3A1007F98F5 /* SampleSwipeableCard.xib in Resources */,
 				5D735F36218EA227007F98F5 /* YY_test.storyboard in Resources */,
 				5D1E04D7218E940D00485FB0 /* PayDemo.storyboard in Resources */,
-				5D735F33218EA227007F98F5 /* Alan_test.storyboard in Resources */,
 				5D7F719D218E50680071E4A1 /* LaunchScreen.storyboard in Resources */,
 				5D735F3C218EA3A1007F98F5 /* StaticShadowHeaderView.xib in Resources */,
 				5D735F5A218EA477007F98F5 /* Main.storyboard in Resources */,
@@ -480,7 +471,6 @@
 				5D735F4E218EA3C1007F98F5 /* SwipeableViewDelegate.swift in Sources */,
 				5D7F7195218E50670071E4A1 /* HomeViewController.swift in Sources */,
 				5D735F52218EA3C1007F98F5 /* UIView+Constraints.swift in Sources */,
-				5D735F35218EA227007F98F5 /* AH_test_ViewController.swift in Sources */,
 				5D735F58218EA3C1007F98F5 /* SwipeDirection.swift in Sources */,
 				5D735F55218EA3C1007F98F5 /* SwipeableCardViewCard.swift in Sources */,
 				5D735F4C218EA3C1007F98F5 /* SwipeableCardViewDelegate.swift in Sources */,
