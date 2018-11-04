@@ -17,7 +17,11 @@ class SwipeableCardViewContainer: UIView, SwipeableViewDelegate {
     var dataSource: SwipeableCardViewDataSource? {
         didSet {
             reloadData()
+            
         }
+    }
+    func setFrameAs(r:CGRect) {
+        self.frame = r
     }
 
     var delegate: SwipeableCardViewDelegate?

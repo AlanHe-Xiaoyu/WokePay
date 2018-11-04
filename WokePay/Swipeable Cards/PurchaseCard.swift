@@ -33,11 +33,12 @@ class PurchaseCard: SwipeableCardViewCard {
         didSet {
             configure(forViewModel: viewModel)
             let labelTextAttributes: [NSAttributedString.Key : Any] = [.font: UIFont.systemFont(ofSize: 12, weight: .bold), .foregroundColor: UIColor.white]
+            /*
             slider.attributedTextForFraction = { fraction in
                 let formatter = NumberFormatter()
                 formatter.maximumIntegerDigits = 3
                 formatter.maximumFractionDigits = 0
-                let string = formatter.string(from: (fraction * 500) as NSNumber) ?? ""
+                let string = formatter.string(from: (fraction * 10) as NSNumber) ?? ""
                 return NSAttributedString(string: string, attributes: [.font: UIFont.systemFont(ofSize: 12, weight: .bold), .foregroundColor: UIColor.black])
             }
             slider.setMinimumLabelAttributedText(NSAttributedString(string: "0", attributes: labelTextAttributes))
@@ -48,7 +49,7 @@ class PurchaseCard: SwipeableCardViewCard {
             slider.shadowColor = UIColor(white: 0, alpha: 0.1)
             slider.contentViewColor = UIColor(red: 78/255.0, green: 77/255.0, blue: 224/255.0, alpha: 1)
             slider.valueViewColor = .white
-            
+            */
         }
     }
     

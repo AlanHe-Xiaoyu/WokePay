@@ -11,7 +11,7 @@ import fluid_slider
 
 class UnratedPurchaseVC: UIViewController, SwipeableCardViewDataSource {
     func viewForEmptyCards() -> UIView? {
-        return UIView()
+        return nil
     }
     
     
@@ -20,9 +20,7 @@ class UnratedPurchaseVC: UIViewController, SwipeableCardViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         cards.dataSource = self
-       
-        let labelTextAttributes: [NSAttributedString.Key : Any] = [.font: UIFont.systemFont(ofSize: 12, weight: .bold), .foregroundColor: UIColor.white]
-        
+      
         /*
         let slider = Slider()
         slider.attributedTextForFraction = { fraction in
@@ -48,6 +46,9 @@ class UnratedPurchaseVC: UIViewController, SwipeableCardViewDataSource {
             self?.setLabelHidden(false, animated: true)
         }
         */
+        //print(cards)
+        //view.addSubview(cards)
+        //print(view.subviews)
         
     }
     
@@ -62,26 +63,30 @@ extension UnratedPurchaseVC {
     func card(forItemAtIndex index: Int) -> SwipeableCardViewCard {
         let viewModel = viewModels[index]
         let cardView = PurchaseCard()
+        let labelTextAttributes: [NSAttributedString.Key : Any] = [.font: UIFont.systemFont(ofSize: 12, weight: .bold), .foregroundColor: UIColor.white]
         
         cardView.slider?.attributedTextForFraction = { fraction in
             let formatter = NumberFormatter()
-            formatter.maximumIntegerDigits = 3
-            formatter.maximumFractionDigits = 0
-            let string = formatter.string(from: (fraction * 500) as NSNumber) ?? ""
+            formatter.maximumIntegerDigits = 2
+            formatter.maximumFractionDigits = 1
+            let string = formatter.string(from: (fraction * 10) as NSNumber) ?? ""
             return NSAttributedString(string: string)
         }
-        cardView.slider?.setMinimumLabelAttributedText(NSAttributedString(string: "1"))
-        cardView.slider?.setMaximumLabelAttributedText(NSAttributedString(string: "100"))
+        cardView.slider?.setMinimumLabelAttributedText(NSAttributedString(string: "0", attributes: labelTextAttributes))
+        cardView.slider?.setMaximumLabelAttributedText(NSAttributedString(string: "10", attributes: labelTextAttributes))
         cardView.slider?.fraction = 0.5
+        
         cardView.slider?.shadowOffset = CGSize(width: 0, height: 10)
         cardView.slider?.shadowBlur = 5
         cardView.slider?.shadowColor = UIColor(white: 0, alpha: 0.1)
         cardView.slider?.contentViewColor = UIColor(red: 78/255.0, green: 77/255.0, blue: 224/255.0, alpha: 1)
         cardView.slider?.valueViewColor = .white
         
-        view.addSubview(cardView.slider)
-        //cardView.slider.addTarget(self, action: #selector(sliderValueChanged), for: .valueChanged)
         
+        //print(view.subviews)
+        //view.addSubview(cardView.slider)
+        //cardView.slider.addTarget(self, action: #selector(sliderValueChanged), for: .valueChanged)
+ 
         cardView.viewModel = viewModel
         return cardView
     }
