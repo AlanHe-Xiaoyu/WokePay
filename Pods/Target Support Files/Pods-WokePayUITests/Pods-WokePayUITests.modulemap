@@ -1,0 +1,6 @@
+framework module Pods_WokePayUITests {
+  umbrella header "Pods-WokePayUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
