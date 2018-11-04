@@ -113,13 +113,13 @@ class HomeViewController: UIViewController, SwipeableCardViewDataSource {
                 .series([
                     AASeriesElement()
                         .name("Tokyo")
-                        .data([3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8])
+                        .data([3.40, 2.90, 2.30, 3.15, 1.75, 2.75])
                         .color(gradientColorDic)
                         .step(step!)
                         .toDic()!,
                     AASeriesElement()
                         .name("Berlin")
-                        .data([0.9, 0.6, 3.5, 8.4, 13.5, 17.0, 18.6, 17.9, 14.3, 9.0, 3.9, 1.0])
+                        .data([1.60, 2.10, 2.70, 1.85, 3.25, 2.25])
                         .step(step!)
                         .toDic()!,
                     ])
@@ -203,19 +203,19 @@ extension HomeViewController {
     
     var viewModels: [SampleSwipeableCellViewModel] {
         
-        let hamburger = SampleSwipeableCellViewModel(title: "Entertainment",
+        let entertainment = SampleSwipeableCellViewModel(title: "Entertainment",
                                                      color: UIColor(red:0.96, green:0.81, blue:0.46, alpha:1.0),
-                                                     image: #imageLiteral(resourceName: "hamburger"))
+                                                     image: #imageLiteral(resourceName: "clown"))
         
-        let panda = SampleSwipeableCellViewModel(title: "Shopping",
+        let shopping = SampleSwipeableCellViewModel(title: "Shopping",
                                                  color: UIColor(red:0.29, green:0.64, blue:0.96, alpha:1.0),
-                                                 image: #imageLiteral(resourceName: "panda"))
+                                                 image: #imageLiteral(resourceName: "Shoppping"))
         
-        let puppy = SampleSwipeableCellViewModel(title: "Food",
+        let food = SampleSwipeableCellViewModel(title: "Food",
                                                  color: UIColor(red:0.29, green:0.63, blue:0.49, alpha:1.0),
-                                                 image: #imageLiteral(resourceName: "puppy"))
+                                                 image: #imageLiteral(resourceName: "hamburger"))
         
-        return [hamburger, panda, puppy]
+        return [entertainment, shopping, food]
     }
 }
 
@@ -224,19 +224,19 @@ extension CardRenderer2 {
     var viewModels: [SampleSwipeableCellViewModel] {
         
         
-        let poop = SampleSwipeableCellViewModel(title: "Transport",
+        let transport = SampleSwipeableCellViewModel(title: "Transport",
                                                 color: UIColor(red:0.69, green:0.52, blue:0.38, alpha:1.0),
-                                                image: #imageLiteral(resourceName: "poop"))
+                                                image: #imageLiteral(resourceName: "subway"))
         
-        let robot = SampleSwipeableCellViewModel(title: "Education",
+        let education = SampleSwipeableCellViewModel(title: "Education",
                                                  color: UIColor(red:0.90, green:0.99, blue:0.97, alpha:1.0),
                                                  image: #imageLiteral(resourceName: "robot"))
         
-        let clown = SampleSwipeableCellViewModel(title: "Health",
+        let health = SampleSwipeableCellViewModel(title: "Health",
                                                  color: UIColor(red:0.83, green:0.82, blue:0.69, alpha:1.0),
                                                  image: #imageLiteral(resourceName: "clown"))
         
-        return [poop, robot, clown]
+        return [transport, education, health]
     }
     
 }
