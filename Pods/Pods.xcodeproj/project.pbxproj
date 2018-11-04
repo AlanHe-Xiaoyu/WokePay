@@ -7,15 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00559DCD43D0F0A4CD10B9C47E38DDF9 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4F6339E3A5F905CF087CD23222A4F5 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		035AAC5E58D5B29F51055B0CB2E24745 /* Pods-WokePayUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC24F33585D86B36E35B798AAA1A459E /* Pods-WokePayUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18B64D082F98D2527D03DC28EABE2295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		1AA376F23E6413070DC0D3226396C1B9 /* Pods-WokePay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F00397F64C522BB23FF4850ABB48E0D5 /* Pods-WokePay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF9008EEC0ECEBB7DAF7C54897E939 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 548F5858F46FC103F8921C662EAC49EA /* POPVector.mm */; };
+		06B69119EFA1290F0420B8F9B0D31F4E /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 730E2D796379F75EA150FB93CBCE6205 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F487EB563C57348CC9688F5E739B8F /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6F31248C870286401A01F5054F8EBFB /* POPAnimationRuntime.mm */; };
+		0A5C2C53BD233AB0991A2929D43DE6E4 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7D86042F6D99BBB529E4335C6F229236 /* POPAnimation.mm */; };
+		0AE5478654165690E686E3D4F86B8DCB /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD16F661D3F89BA25DBAB4A5273F6F0 /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF8539626AFB970D1FC7CB961132AAB /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE11A24D81A0C0E7182F45235482510 /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1060DBAF13742E08026B2E313453B981 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 163D7E1F1808D22A22582A54D65F22C0 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12323F2DD928A34E228A5520330C1E5E /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AC85D106BA6F06F4BA797655A54FF6 /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15F472CD6A7919D2EDB417D00C284F41 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 180A6F5C9888DECCFE2F65C696463CE6 /* POPLayerExtras.mm */; };
+		1F78ECABCDCE85A9A2C3333452A1300B /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C568E05C2B0308C4EDC7056C4B2A8862 /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23AF1E90D971991F17879B99892D2DEB /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CFA8B3F4A3BF47A2FD77DBED7ECBD /* POPAnimationExtras.mm */; };
+		246E5BAB7BBBAE7DC92F08CC163B3311 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0174E159AA5B38ADC2F12B4B5704D /* POPGeometry.mm */; };
+		2CF5DA0AEFCB4141846650E57698C6E3 /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1509B507728E36957BBFC95B8B13A10A /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2F6D612608BCD1D5587BFC2A4316984F /* Pods-WokePayUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8CCAAED9DDD6E889E921350FCAB72F /* Pods-WokePayUITests-dummy.m */; };
 		376A21386DDB2A8424FA55CC5A361773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		3846964BDEC3FB5BCCE8E9347960DBF4 /* Pods-WokePay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF44D37C3453BEE8BFD835DFE0B33577 /* Pods-WokePay-dummy.m */; };
+		3A1CB4EB2FC13BCE145D69795B9E211B /* Pods-WokePay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F00397F64C522BB23FF4850ABB48E0D5 /* Pods-WokePay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E12D76697767108ACF6598A46251AC6 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0007C58D562FD97B79F9CD5642EAFC33 /* POPAnimationEvent.mm */; };
+		41684529FC48F4FA1CDE009353485BC9 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC858BFBA3A769000DB97BCB1AE188C /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42DA57E10681F6673F007E1DB6449810 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED31D1ACCF5C1249EB0F9DB0C355DBBD /* POPPropertyAnimation.mm */; };
+		47566DB35CC162403273FC728743D8F8 /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C6ECB7C39A6DD9285A320AFFBA023A /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47DBB3CC4F6F9BD6BD7D2D4F033990D2 /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = F5356AA77260C4E2B7A364B51E7D8DDB /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A0FB30A7950C8585DAB6F97F57309C7 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B5E07F8FD28D3CE9584AB1E7ADD0CA7 /* POPCustomAnimation.mm */; };
+		4A2CCCCC335AFF91D65EC179DBCF2071 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 11615E46F91AA9C8E4427D5637C9A7B4 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		514A4D442F3E67F15B5EEA7969B178E4 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = F0CBBC9FC99DCDEFB5ED8CF8EC765902 /* POPMath.mm */; };
+		54B8A9183AD4068283D78340893883E8 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0521F4EC09E660F13B57BCAFB301005 /* POPSpringAnimation.mm */; };
+		583E8A6DD9DDD547AB60080E3FB7A9A3 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 859DC7EEA08FA0FEDC358C0B045B7B01 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59E51F19EC1B29A87B7F08849F5DE1FC /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F31664A6540AF20C1036E6DADA85A28 /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		661CBDA314472CFC5B046BC0766CAE9E /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B5B55FE266C67AEE0362483FBE7C41 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68AF891113D23E40589F35D139D81D51 /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D47900DFF4B91C59EF451A598DC2C8 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6EB45446D1255D798C591350F2B38B2F /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE418804B62E2EF3D3A2791353AFA74 /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		709EABC916C2D91C64625469A9BC1A30 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = BD96340E5657B3CF7EE51CBEE2EC628A /* POPDecayAnimation.mm */; };
+		7128C596CF5B1028C5E3057A3B4A89FA /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 377B0075E31B7E3E7D94CF395D8B66CD /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71D0713E8CB01BF6F8328E4F9889D0EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		742FA53683069327D867B70A378C3F77 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33209F2779C28AAAF8820313E19AFA2D /* TransformationMatrix.cpp */; };
+		76B24573090C0B5A42BC65F9C663D699 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF0E48016CF37551BDDC99CDB57D531 /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		798729AF1319D17E20E4581778769A33 /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = A972839E1256E5B745D828284AA60D9B /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8056143096130A7A754DCFFC6003D4B6 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 85190492AE5FF500BC8414858BDDA9DB /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8189A116C30792157D5339116AD4E5DC /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = B4B0628CCEF1BB013E2BC0509BECD28E /* POPCGUtils.mm */; };
+		86A17A9263036FA5D7AF53AB5590EE70 /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = ACAA76148FD72A241B673F1D298D1A3A /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E6B399614A5884DF3635F2A32D8925F /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = CFBCC74D9771CE5FD77ACD9243869AF3 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99A9F9DAECC553D669240201D1582127 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5BA6E404F60662A14C0CE475595D57 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CA3F3ACBBC972DE5699B9498975ED9D /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = C793764F242A25858B0F4FA44E69975E /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A67FE4FA4AC8C9FBEB2041F29A055ABA /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CF05E8BDA61453F5A20E247EB61310 /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE2768E8BD736F97B6E29266EC42355B /* POPAnimatablePropertyTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5E9055C9D0466B03D6F4C9E7407014 /* POPAnimatablePropertyTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEED2F336B6406962AFF8143743AF0A6 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = D6AD40D95C7E99265D19C1CADF98951F /* POPAnimatableProperty.mm */; };
 		B51FFA4DE28E440B3DF0C022B6BFBCCF /* Pods-WokePayTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A82EE4D91148040063DC09E91729A1 /* Pods-WokePayTests-dummy.m */; };
 		B7A5ED28394C989E25C3902D1919E76D /* Pods-WokePayTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE85227A4D2D343B3035B8ACCFEFA29 /* Pods-WokePayTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C341B3CBBF01A85C074024E8005D75CE /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C89F84013635D3E6909EF508A8F788 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C400CA8058F358577FE6CBCAAA10233C /* Pods-WokePay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF44D37C3453BEE8BFD835DFE0B33577 /* Pods-WokePay-dummy.m */; };
+		C7D16091F2A56216CC255B16F4BF967C /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ACE7BAC871F4B900F985CB303CF28B /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4C9635385B9D7594BC509B65BDCD48D /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8541F79D6D5C37CF8E9EA42B73CD7DE /* POPAnimationTracer.mm */; };
+		DC020C34EA37FB6677050AB93A0797F6 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = CA551C89899817E84AB8D51CD542CFB3 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E46725B74A3DAB0B1D9302204A1A4900 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA8345F0882546D6704C8D56B04BF542 /* POPAnimator.mm */; };
+		E4A3525BDBF1F72252DC67150841AF5F /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D0D03CB7E2C6A15602FD52C567739A /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E88AB060787C5FDF643AE2A5CA105671 /* pop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 072C0C4256902D31D6B1C6DB70A38A5D /* pop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDA843D556E4B6A2A532F5C663785F52 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = D1625492F4EECFC6606DA7B483574E16 /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F2775D48FA0E699D25AD431C69AED8BC /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBC0A0F4BAAE0B916631DCCEC397EB4 /* pop-dummy.m */; };
+		F330000586E6CDE4320F3757F2DAF7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		F335528DDC9235FADA2BD1960B0E0E93 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 955B4A7467BE17E90578C781F39D39A5 /* POPBasicAnimation.mm */; };
+		FA071E1AFAC9709EC18ABA162E4CB377 /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB05E418C1987A80BBE187995545C6E /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FABECC27BD25AC3EEB82BC094AE6A7AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		FFF045402FCA608F2029F6D09572FCA6 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EE271BCDD8EA2B78C2C76EDD08EED9 /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,62 +78,128 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35F97BBE91B9E009614003DFA840AFE8;
+			remoteGlobalIDString = F70F57700282BA33037491477466B294;
 			remoteInfo = "Pods-WokePay";
 		};
 		36E27D3CAF9699E04412D1550C1D5334 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35F97BBE91B9E009614003DFA840AFE8;
+			remoteGlobalIDString = F70F57700282BA33037491477466B294;
 			remoteInfo = "Pods-WokePay";
+		};
+		7EC42C5478B50D7C6A44FF099598869D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4302FBF13A8378C1FCABC084EDD7A47;
+			remoteInfo = pop;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0007C58D562FD97B79F9CD5642EAFC33 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		072C0C4256902D31D6B1C6DB70A38A5D /* pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-umbrella.h"; sourceTree = "<group>"; };
+		0A5BA6E404F60662A14C0CE475595D57 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		0C4F6339E3A5F905CF087CD23222A4F5 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		11615E46F91AA9C8E4427D5637C9A7B4 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		11D47900DFF4B91C59EF451A598DC2C8 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		1509B507728E36957BBFC95B8B13A10A /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		163D7E1F1808D22A22582A54D65F22C0 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		180A6F5C9888DECCFE2F65C696463CE6 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		1A628E1CFFE7EB0391DD6E0425D6EF5D /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
 		1AD3D1AC14D81B43DA80DBDA011575A8 /* Pods-WokePayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WokePayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E8CCAAED9DDD6E889E921350FCAB72F /* Pods-WokePayUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WokePayUITests-dummy.m"; sourceTree = "<group>"; };
-		32DA098701F4947DB141A50C43F338C3 /* Pods_WokePayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WokePayTests.framework; path = "Pods-WokePayTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9CFA8B3F4A3BF47A2FD77DBED7ECBD /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		27D0D03CB7E2C6A15602FD52C567739A /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		2F31664A6540AF20C1036E6DADA85A28 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		3294B5CF213D6ACE225DF1AC1C8D8C03 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = pop.framework; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F6030E354035579277B6D2B7CDB4BF /* Pods-WokePay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WokePay-resources.sh"; sourceTree = "<group>"; };
+		33209F2779C28AAAF8820313E19AFA2D /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		36850E803D8E5EC3213189235C80B147 /* Pods_WokePayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WokePayUITests.framework; path = "Pods-WokePayUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		377B0075E31B7E3E7D94CF395D8B66CD /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		548F5858F46FC103F8921C662EAC49EA /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		5BB0174E159AA5B38ADC2F12B4B5704D /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
 		5E2C6634FC2E1D1CF1078D7711ABA7D5 /* Pods-WokePay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WokePay-frameworks.sh"; sourceTree = "<group>"; };
+		6110A224CA74E3C82289BCA5E44FC458 /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
 		730005FE94E52101055ACA9F29E4468D /* Pods-WokePay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WokePay-acknowledgements.plist"; sourceTree = "<group>"; };
+		730E2D796379F75EA150FB93CBCE6205 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
 		74A82EE4D91148040063DC09E91729A1 /* Pods-WokePayTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WokePayTests-dummy.m"; sourceTree = "<group>"; };
+		7BE418804B62E2EF3D3A2791353AFA74 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		7D86042F6D99BBB529E4335C6F229236 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		7EC858BFBA3A769000DB97BCB1AE188C /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		7FB05E418C1987A80BBE187995545C6E /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		820B7D0905713DEED86A73DF1DE163FC /* Pods_WokePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WokePay.framework; path = "Pods-WokePay.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8290CAB0D17972AFFBD10008ADF5DFE8 /* Pods-WokePayUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WokePayUITests-frameworks.sh"; sourceTree = "<group>"; };
 		8424DD961EBFB2EB5E3B0CEEA74C4FDB /* Pods-WokePay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WokePay.release.xcconfig"; sourceTree = "<group>"; };
+		84C89F84013635D3E6909EF508A8F788 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		85190492AE5FF500BC8414858BDDA9DB /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		859DC7EEA08FA0FEDC358C0B045B7B01 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
 		893A03D1AC436DD0DB22C2A03E4F5AF1 /* Pods-WokePayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WokePayUITests.release.xcconfig"; sourceTree = "<group>"; };
 		896190723CE9A27721D57DDC26FDA993 /* Pods-WokePayTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WokePayTests-frameworks.sh"; sourceTree = "<group>"; };
+		8B5E07F8FD28D3CE9584AB1E7ADD0CA7 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		8BD4C7BF1D4867A40B5ABC6E69868BA1 /* pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = pop.modulemap; sourceTree = "<group>"; };
+		8C93FC8BCF2043B671276EBFCBD01984 /* Pods_WokePayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WokePayTests.framework; path = "Pods-WokePayTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD16F661D3F89BA25DBAB4A5273F6F0 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
 		8E82AED06DF93CBE3834DF76F2687047 /* Pods-WokePayUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WokePayUITests.modulemap"; sourceTree = "<group>"; };
 		8F5ABAB0C196091B4B68FCB5AB8B38F7 /* Pods-WokePayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WokePayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		941A93820FA432D2016D344A483B4DA3 /* Pods-WokePayTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WokePayTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		955B4A7467BE17E90578C781F39D39A5 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		99ACE7BAC871F4B900F985CB303CF28B /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		9BF0E48016CF37551BDDC99CDB57D531 /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		9E5E9055C9D0466B03D6F4C9E7407014 /* POPAnimatablePropertyTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatablePropertyTypes.h; path = pop/POPAnimatablePropertyTypes.h; sourceTree = "<group>"; };
 		9E8D26F8DF5EF4358202051DB4D8F34C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0AC85D106BA6F06F4BA797655A54FF6 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		A8C6ECB7C39A6DD9285A320AFFBA023A /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		A972839E1256E5B745D828284AA60D9B /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		ACAA76148FD72A241B673F1D298D1A3A /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
 		AEE85227A4D2D343B3035B8ACCFEFA29 /* Pods-WokePayTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WokePayTests-umbrella.h"; sourceTree = "<group>"; };
+		B4B0628CCEF1BB013E2BC0509BECD28E /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		B6F31248C870286401A01F5054F8EBFB /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
 		BB490E2F9EA72FF3DBF2E431AB3BFBD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD2167634D834A4B67972334EBBB1EDC /* Pods-WokePayTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WokePayTests.modulemap"; sourceTree = "<group>"; };
+		BD96340E5657B3CF7EE51CBEE2EC628A /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
 		C5335B3C8431C2F1A0794FE3FAD8BF43 /* Pods-WokePayTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WokePayTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C568E05C2B0308C4EDC7056C4B2A8862 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		C793764F242A25858B0F4FA44E69975E /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		CA551C89899817E84AB8D51CD542CFB3 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		CFBCC74D9771CE5FD77ACD9243869AF3 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		D0CF05E8BDA61453F5A20E247EB61310 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		D1625492F4EECFC6606DA7B483574E16 /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		D4EE271BCDD8EA2B78C2C76EDD08EED9 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
 		D619572ACC4DC2516935268982B7FB6E /* Pods-WokePay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WokePay.modulemap"; sourceTree = "<group>"; };
+		D6AD40D95C7E99265D19C1CADF98951F /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DC24F33585D86B36E35B798AAA1A459E /* Pods-WokePayUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WokePayUITests-umbrella.h"; sourceTree = "<group>"; };
 		DE1A970E39F73B3633FFAC1B375F6FA3 /* Pods-WokePay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WokePay-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E661F223F27869EC7473857AAED6B05D /* Pods_WokePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WokePay.framework; path = "Pods-WokePay.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03A5C42BC93219760B5FD530167A013 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0521F4EC09E660F13B57BCAFB301005 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		E5B5B55FE266C67AEE0362483FBE7C41 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		E8541F79D6D5C37CF8E9EA42B73CD7DE /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		EA8345F0882546D6704C8D56B04BF542 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		ED31D1ACCF5C1249EB0F9DB0C355DBBD /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
 		ED76BD22E63FF24D9D89D3FD34D94580 /* Pods-WokePayUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WokePayUITests-resources.sh"; sourceTree = "<group>"; };
 		EDD6CCCD72FDCA8064C54F8D3F2DC263 /* Pods-WokePayTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WokePayTests-resources.sh"; sourceTree = "<group>"; };
 		EE2E7F884B4B7670F9577DF9EB65C2B5 /* Pods-WokePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WokePay.debug.xcconfig"; sourceTree = "<group>"; };
 		F00397F64C522BB23FF4850ABB48E0D5 /* Pods-WokePay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WokePay-umbrella.h"; sourceTree = "<group>"; };
+		F0CBBC9FC99DCDEFB5ED8CF8EC765902 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
 		F0CF4058EBF77F8F73F092A522CE2113 /* Pods-WokePayUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WokePayUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5356AA77260C4E2B7A364B51E7D8DDB /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
 		F7467C718A5ADE7F2D24BE9282B7BF7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F89440941B91BD2A2EE10F3896915DEF /* Pods-WokePayUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WokePayUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD337C2994BD3DF615DA7D1C5109CAE8 /* Pods_WokePayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WokePayUITests.framework; path = "Pods-WokePayUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE11A24D81A0C0E7182F45235482510 /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		FBBC0A0F4BAAE0B916631DCCEC397EB4 /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
 		FD7B43A6C1A1B04CEF4F58AFCB604030 /* Pods-WokePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WokePayTests.release.xcconfig"; sourceTree = "<group>"; };
 		FF44D37C3453BEE8BFD835DFE0B33577 /* Pods-WokePay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WokePay-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		088670B96728808717832C9968566A9B /* Frameworks */ = {
+		5EAA12D7D3692F9B9019F9CB3EC5950F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B64D082F98D2527D03DC28EABE2295 /* Foundation.framework in Frameworks */,
+				71D0713E8CB01BF6F8328E4F9889D0EF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +216,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABECC27BD25AC3EEB82BC094AE6A7AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B1D2FC7BE9761B044F3750D457D323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F330000586E6CDE4320F3757F2DAF7B7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +248,14 @@
 			path = "Target Support Files/Pods-WokePayTests";
 			sourceTree = "<group>";
 		};
+		17F7CDF352E9D694BE6EB934C9DC1B8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6F132F85A0B43AB02F47BF9686D8D5B /* pop */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		20F5FE892DE6F62E521FCF8DF1761649 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +272,20 @@
 				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A1A0ECB728B6A1041978938F0DF3569 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E03A5C42BC93219760B5FD530167A013 /* Info.plist */,
+				8BD4C7BF1D4867A40B5ABC6E69868BA1 /* pop.modulemap */,
+				6110A224CA74E3C82289BCA5E44FC458 /* pop.xcconfig */,
+				FBBC0A0F4BAAE0B916631DCCEC397EB4 /* pop-dummy.m */,
+				1A628E1CFFE7EB0391DD6E0425D6EF5D /* pop-prefix.pch */,
+				072C0C4256902D31D6B1C6DB70A38A5D /* pop-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/pop";
 			sourceTree = "<group>";
 		};
 		7D5A59539DF86BF022B0ACE246A295BE /* Pods-WokePay */ = {
@@ -160,19 +311,82 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8273ECC393DD376A829583975924317F /* Products */,
+				17F7CDF352E9D694BE6EB934C9DC1B8C /* Pods */,
+				7E11EF218D0565D28DBCE6DC2CEA2C53 /* Products */,
 				20F5FE892DE6F62E521FCF8DF1761649 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8273ECC393DD376A829583975924317F /* Products */ = {
+		7E11EF218D0565D28DBCE6DC2CEA2C53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E661F223F27869EC7473857AAED6B05D /* Pods_WokePay.framework */,
-				32DA098701F4947DB141A50C43F338C3 /* Pods_WokePayTests.framework */,
-				FD337C2994BD3DF615DA7D1C5109CAE8 /* Pods_WokePayUITests.framework */,
+				820B7D0905713DEED86A73DF1DE163FC /* Pods_WokePay.framework */,
+				8C93FC8BCF2043B671276EBFCBD01984 /* Pods_WokePayTests.framework */,
+				36850E803D8E5EC3213189235C80B147 /* Pods_WokePayUITests.framework */,
+				3294B5CF213D6ACE225DF1AC1C8D8C03 /* pop.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F132F85A0B43AB02F47BF9686D8D5B /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				7BE418804B62E2EF3D3A2791353AFA74 /* FloatConversion.h */,
+				E5B5B55FE266C67AEE0362483FBE7C41 /* POP.h */,
+				85190492AE5FF500BC8414858BDDA9DB /* POPAction.h */,
+				27D0D03CB7E2C6A15602FD52C567739A /* POPAnimatableProperty.h */,
+				D6AD40D95C7E99265D19C1CADF98951F /* POPAnimatableProperty.mm */,
+				9E5E9055C9D0466B03D6F4C9E7407014 /* POPAnimatablePropertyTypes.h */,
+				9BF0E48016CF37551BDDC99CDB57D531 /* POPAnimation.h */,
+				7D86042F6D99BBB529E4335C6F229236 /* POPAnimation.mm */,
+				0A5BA6E404F60662A14C0CE475595D57 /* POPAnimationEvent.h */,
+				0007C58D562FD97B79F9CD5642EAFC33 /* POPAnimationEvent.mm */,
+				CFBCC74D9771CE5FD77ACD9243869AF3 /* POPAnimationEventInternal.h */,
+				7EC858BFBA3A769000DB97BCB1AE188C /* POPAnimationExtras.h */,
+				1F9CFA8B3F4A3BF47A2FD77DBED7ECBD /* POPAnimationExtras.mm */,
+				2F31664A6540AF20C1036E6DADA85A28 /* POPAnimationInternal.h */,
+				D0CF05E8BDA61453F5A20E247EB61310 /* POPAnimationPrivate.h */,
+				CA551C89899817E84AB8D51CD542CFB3 /* POPAnimationRuntime.h */,
+				B6F31248C870286401A01F5054F8EBFB /* POPAnimationRuntime.mm */,
+				377B0075E31B7E3E7D94CF395D8B66CD /* POPAnimationTracer.h */,
+				E8541F79D6D5C37CF8E9EA42B73CD7DE /* POPAnimationTracer.mm */,
+				A972839E1256E5B745D828284AA60D9B /* POPAnimationTracerInternal.h */,
+				84C89F84013635D3E6909EF508A8F788 /* POPAnimator.h */,
+				EA8345F0882546D6704C8D56B04BF542 /* POPAnimator.mm */,
+				11615E46F91AA9C8E4427D5637C9A7B4 /* POPAnimatorPrivate.h */,
+				FAE11A24D81A0C0E7182F45235482510 /* POPBasicAnimation.h */,
+				955B4A7467BE17E90578C781F39D39A5 /* POPBasicAnimation.mm */,
+				0C4F6339E3A5F905CF087CD23222A4F5 /* POPBasicAnimationInternal.h */,
+				A8C6ECB7C39A6DD9285A320AFFBA023A /* POPCGUtils.h */,
+				B4B0628CCEF1BB013E2BC0509BECD28E /* POPCGUtils.mm */,
+				D4EE271BCDD8EA2B78C2C76EDD08EED9 /* POPCustomAnimation.h */,
+				8B5E07F8FD28D3CE9584AB1E7ADD0CA7 /* POPCustomAnimation.mm */,
+				730E2D796379F75EA150FB93CBCE6205 /* POPDecayAnimation.h */,
+				BD96340E5657B3CF7EE51CBEE2EC628A /* POPDecayAnimation.mm */,
+				1509B507728E36957BBFC95B8B13A10A /* POPDecayAnimationInternal.h */,
+				C568E05C2B0308C4EDC7056C4B2A8862 /* POPDefines.h */,
+				859DC7EEA08FA0FEDC358C0B045B7B01 /* POPGeometry.h */,
+				5BB0174E159AA5B38ADC2F12B4B5704D /* POPGeometry.mm */,
+				163D7E1F1808D22A22582A54D65F22C0 /* POPLayerExtras.h */,
+				180A6F5C9888DECCFE2F65C696463CE6 /* POPLayerExtras.mm */,
+				C793764F242A25858B0F4FA44E69975E /* POPMath.h */,
+				F0CBBC9FC99DCDEFB5ED8CF8EC765902 /* POPMath.mm */,
+				8CD16F661D3F89BA25DBAB4A5273F6F0 /* POPPropertyAnimation.h */,
+				ED31D1ACCF5C1249EB0F9DB0C355DBBD /* POPPropertyAnimation.mm */,
+				11D47900DFF4B91C59EF451A598DC2C8 /* POPPropertyAnimationInternal.h */,
+				99ACE7BAC871F4B900F985CB303CF28B /* POPSpringAnimation.h */,
+				E0521F4EC09E660F13B57BCAFB301005 /* POPSpringAnimation.mm */,
+				F5356AA77260C4E2B7A364B51E7D8DDB /* POPSpringAnimationInternal.h */,
+				A0AC85D106BA6F06F4BA797655A54FF6 /* POPSpringSolver.h */,
+				ACAA76148FD72A241B673F1D298D1A3A /* POPVector.h */,
+				548F5858F46FC103F8921C662EAC49EA /* POPVector.mm */,
+				33209F2779C28AAAF8820313E19AFA2D /* TransformationMatrix.cpp */,
+				7FB05E418C1987A80BBE187995545C6E /* TransformationMatrix.h */,
+				D1625492F4EECFC6606DA7B483574E16 /* UnitBezier.h */,
+				5A1A0ECB728B6A1041978938F0DF3569 /* Support Files */,
+			);
+			name = pop;
+			path = pop;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -204,6 +418,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		848AB9D33A4F1E7176A57F3AD0F0ADE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB45446D1255D798C591350F2B38B2F /* FloatConversion.h in Headers */,
+				E88AB060787C5FDF643AE2A5CA105671 /* pop-umbrella.h in Headers */,
+				661CBDA314472CFC5B046BC0766CAE9E /* POP.h in Headers */,
+				8056143096130A7A754DCFFC6003D4B6 /* POPAction.h in Headers */,
+				E4A3525BDBF1F72252DC67150841AF5F /* POPAnimatableProperty.h in Headers */,
+				AE2768E8BD736F97B6E29266EC42355B /* POPAnimatablePropertyTypes.h in Headers */,
+				76B24573090C0B5A42BC65F9C663D699 /* POPAnimation.h in Headers */,
+				99A9F9DAECC553D669240201D1582127 /* POPAnimationEvent.h in Headers */,
+				8E6B399614A5884DF3635F2A32D8925F /* POPAnimationEventInternal.h in Headers */,
+				41684529FC48F4FA1CDE009353485BC9 /* POPAnimationExtras.h in Headers */,
+				59E51F19EC1B29A87B7F08849F5DE1FC /* POPAnimationInternal.h in Headers */,
+				A67FE4FA4AC8C9FBEB2041F29A055ABA /* POPAnimationPrivate.h in Headers */,
+				DC020C34EA37FB6677050AB93A0797F6 /* POPAnimationRuntime.h in Headers */,
+				7128C596CF5B1028C5E3057A3B4A89FA /* POPAnimationTracer.h in Headers */,
+				798729AF1319D17E20E4581778769A33 /* POPAnimationTracerInternal.h in Headers */,
+				C341B3CBBF01A85C074024E8005D75CE /* POPAnimator.h in Headers */,
+				4A2CCCCC335AFF91D65EC179DBCF2071 /* POPAnimatorPrivate.h in Headers */,
+				0BF8539626AFB970D1FC7CB961132AAB /* POPBasicAnimation.h in Headers */,
+				00559DCD43D0F0A4CD10B9C47E38DDF9 /* POPBasicAnimationInternal.h in Headers */,
+				47566DB35CC162403273FC728743D8F8 /* POPCGUtils.h in Headers */,
+				FFF045402FCA608F2029F6D09572FCA6 /* POPCustomAnimation.h in Headers */,
+				06B69119EFA1290F0420B8F9B0D31F4E /* POPDecayAnimation.h in Headers */,
+				2CF5DA0AEFCB4141846650E57698C6E3 /* POPDecayAnimationInternal.h in Headers */,
+				1F78ECABCDCE85A9A2C3333452A1300B /* POPDefines.h in Headers */,
+				583E8A6DD9DDD547AB60080E3FB7A9A3 /* POPGeometry.h in Headers */,
+				1060DBAF13742E08026B2E313453B981 /* POPLayerExtras.h in Headers */,
+				9CA3F3ACBBC972DE5699B9498975ED9D /* POPMath.h in Headers */,
+				0AE5478654165690E686E3D4F86B8DCB /* POPPropertyAnimation.h in Headers */,
+				68AF891113D23E40589F35D139D81D51 /* POPPropertyAnimationInternal.h in Headers */,
+				C7D16091F2A56216CC255B16F4BF967C /* POPSpringAnimation.h in Headers */,
+				47DBB3CC4F6F9BD6BD7D2D4F033990D2 /* POPSpringAnimationInternal.h in Headers */,
+				12323F2DD928A34E228A5520330C1E5E /* POPSpringSolver.h in Headers */,
+				86A17A9263036FA5D7AF53AB5590EE70 /* POPVector.h in Headers */,
+				FA071E1AFAC9709EC18ABA162E4CB377 /* TransformationMatrix.h in Headers */,
+				EDA843D556E4B6A2A532F5C663785F52 /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E17A687978B88675421FC0A511DCE6C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,11 +476,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDC4848F72689F7C01EC9EF6DA44BB31 /* Headers */ = {
+		CABCC704735B51A36971CE6BE3FCB654 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA376F23E6413070DC0D3226396C1B9 /* Pods-WokePay-umbrella.h in Headers */,
+				3A1CB4EB2FC13BCE145D69795B9E211B /* Pods-WokePay-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,25 +503,7 @@
 			);
 			name = "Pods-WokePayTests";
 			productName = "Pods-WokePayTests";
-			productReference = 32DA098701F4947DB141A50C43F338C3 /* Pods_WokePayTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		35F97BBE91B9E009614003DFA840AFE8 /* Pods-WokePay */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00A17BC223115421F1417DA893DD74D1 /* Build configuration list for PBXNativeTarget "Pods-WokePay" */;
-			buildPhases = (
-				CDC4848F72689F7C01EC9EF6DA44BB31 /* Headers */,
-				6C81E6C739E8E451D976268F1F2FA9B1 /* Sources */,
-				088670B96728808717832C9968566A9B /* Frameworks */,
-				F9CB56455AAE9FB7ECBD02B749BF9806 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-WokePay";
-			productName = "Pods-WokePay";
-			productReference = E661F223F27869EC7473857AAED6B05D /* Pods_WokePay.framework */;
+			productReference = 8C93FC8BCF2043B671276EBFCBD01984 /* Pods_WokePayTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		42E64EFB533B756B1A649D8D2EC77981 /* Pods-WokePayUITests */ = {
@@ -284,7 +522,44 @@
 			);
 			name = "Pods-WokePayUITests";
 			productName = "Pods-WokePayUITests";
-			productReference = FD337C2994BD3DF615DA7D1C5109CAE8 /* Pods_WokePayUITests.framework */;
+			productReference = 36850E803D8E5EC3213189235C80B147 /* Pods_WokePayUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4302FBF13A8378C1FCABC084EDD7A47 /* pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB64A55258C4695DB17D350C669A5C2 /* Build configuration list for PBXNativeTarget "pop" */;
+			buildPhases = (
+				848AB9D33A4F1E7176A57F3AD0F0ADE9 /* Headers */,
+				4CB00DB6DEBB7C11CF371ABE360606D8 /* Sources */,
+				F6B1D2FC7BE9761B044F3750D457D323 /* Frameworks */,
+				54D6773DAFE01C4B5D74E067848E4556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pop;
+			productName = pop;
+			productReference = 3294B5CF213D6ACE225DF1AC1C8D8C03 /* pop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F70F57700282BA33037491477466B294 /* Pods-WokePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6981F1AE32403CF1A7C844CE88170372 /* Build configuration list for PBXNativeTarget "Pods-WokePay" */;
+			buildPhases = (
+				CABCC704735B51A36971CE6BE3FCB654 /* Headers */,
+				0AFECB3D8BD2A106F0D92C58A58EEF5A /* Sources */,
+				5EAA12D7D3692F9B9019F9CB3EC5950F /* Frameworks */,
+				97D6291D9B8E10D463118C6B797DDE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC92392254A6D24E89BA46ACE9B6EF9F /* PBXTargetDependency */,
+			);
+			name = "Pods-WokePay";
+			productName = "Pods-WokePay";
+			productReference = 820B7D0905713DEED86A73DF1DE163FC /* Pods_WokePay.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -304,19 +579,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8273ECC393DD376A829583975924317F /* Products */;
+			productRefGroup = 7E11EF218D0565D28DBCE6DC2CEA2C53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35F97BBE91B9E009614003DFA840AFE8 /* Pods-WokePay */,
+				F70F57700282BA33037491477466B294 /* Pods-WokePay */,
 				18963C07F254F77FAE4899D836B27E10 /* Pods-WokePayTests */,
 				42E64EFB533B756B1A649D8D2EC77981 /* Pods-WokePayUITests */,
+				C4302FBF13A8378C1FCABC084EDD7A47 /* pop */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		54D6773DAFE01C4B5D74E067848E4556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		563A97D9309814220D6D102E45504B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6291D9B8E10D463118C6B797DDE40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,16 +620,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9CB56455AAE9FB7ECBD02B749BF9806 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0AFECB3D8BD2A106F0D92C58A58EEF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C400CA8058F358577FE6CBCAAA10233C /* Pods-WokePay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FBCB15E74E11B60C1E060E22B59A716 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,11 +639,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C81E6C739E8E451D976268F1F2FA9B1 /* Sources */ = {
+		4CB00DB6DEBB7C11CF371ABE360606D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3846964BDEC3FB5BCCE8E9347960DBF4 /* Pods-WokePay-dummy.m in Sources */,
+				F2775D48FA0E699D25AD431C69AED8BC /* pop-dummy.m in Sources */,
+				AEED2F336B6406962AFF8143743AF0A6 /* POPAnimatableProperty.mm in Sources */,
+				0A5C2C53BD233AB0991A2929D43DE6E4 /* POPAnimation.mm in Sources */,
+				3E12D76697767108ACF6598A46251AC6 /* POPAnimationEvent.mm in Sources */,
+				23AF1E90D971991F17879B99892D2DEB /* POPAnimationExtras.mm in Sources */,
+				08F487EB563C57348CC9688F5E739B8F /* POPAnimationRuntime.mm in Sources */,
+				D4C9635385B9D7594BC509B65BDCD48D /* POPAnimationTracer.mm in Sources */,
+				E46725B74A3DAB0B1D9302204A1A4900 /* POPAnimator.mm in Sources */,
+				F335528DDC9235FADA2BD1960B0E0E93 /* POPBasicAnimation.mm in Sources */,
+				8189A116C30792157D5339116AD4E5DC /* POPCGUtils.mm in Sources */,
+				4A0FB30A7950C8585DAB6F97F57309C7 /* POPCustomAnimation.mm in Sources */,
+				709EABC916C2D91C64625469A9BC1A30 /* POPDecayAnimation.mm in Sources */,
+				246E5BAB7BBBAE7DC92F08CC163B3311 /* POPGeometry.mm in Sources */,
+				15F472CD6A7919D2EDB417D00C284F41 /* POPLayerExtras.mm in Sources */,
+				514A4D442F3E67F15B5EEA7969B178E4 /* POPMath.mm in Sources */,
+				42DA57E10681F6673F007E1DB6449810 /* POPPropertyAnimation.mm in Sources */,
+				54B8A9183AD4068283D78340893883E8 /* POPSpringAnimation.mm in Sources */,
+				04CF9008EEC0ECEBB7DAF7C54897E939 /* POPVector.mm in Sources */,
+				742FA53683069327D867B70A378C3F77 /* TransformationMatrix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,13 +679,19 @@
 		493001FF7C748E01001871FCF9814503 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WokePay";
-			target = 35F97BBE91B9E009614003DFA840AFE8 /* Pods-WokePay */;
+			target = F70F57700282BA33037491477466B294 /* Pods-WokePay */;
 			targetProxy = 36E27D3CAF9699E04412D1550C1D5334 /* PBXContainerItemProxy */;
+		};
+		AC92392254A6D24E89BA46ACE9B6EF9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = C4302FBF13A8378C1FCABC084EDD7A47 /* pop */;
+			targetProxy = 7EC42C5478B50D7C6A44FF099598869D /* PBXContainerItemProxy */;
 		};
 		D891E9DC71EC0B7C7FBD18DFBEB3EBFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WokePay";
-			target = 35F97BBE91B9E009614003DFA840AFE8 /* Pods-WokePay */;
+			target = F70F57700282BA33037491477466B294 /* Pods-WokePay */;
 			targetProxy = 3600E66519B09AD5CD49E03F3A0D8186 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -420,7 +735,7 @@
 			};
 			name = Debug;
 		};
-		5631E9523E4F7738CA3A99EB8735483D /* Release */ = {
+		12925C65FFE95366106D980DF5521447 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8424DD961EBFB2EB5E3B0CEEA74C4FDB /* Pods-WokePay.release.xcconfig */;
 			buildSettings = {
@@ -452,6 +767,42 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		358030812A06F458E140C90F90800253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6110A224CA74E3C82289BCA5E44FC458 /* pop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				PRODUCT_MODULE_NAME = pop;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -703,7 +1054,42 @@
 			};
 			name = Release;
 		};
-		EF9E20B28F38C9227A9EBD3710533C8B /* Debug */ = {
+		F1DA7B0FE0C16E057E312064A03F9651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6110A224CA74E3C82289BCA5E44FC458 /* pop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				PRODUCT_MODULE_NAME = pop;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4A65A1B14BA643B31FB2235C2CE59BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE2E7F884B4B7670F9577DF9EB65C2B5 /* Pods-WokePay.debug.xcconfig */;
 			buildSettings = {
@@ -744,11 +1130,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00A17BC223115421F1417DA893DD74D1 /* Build configuration list for PBXNativeTarget "Pods-WokePay" */ = {
+		0CB64A55258C4695DB17D350C669A5C2 /* Build configuration list for PBXNativeTarget "pop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF9E20B28F38C9227A9EBD3710533C8B /* Debug */,
-				5631E9523E4F7738CA3A99EB8735483D /* Release */,
+				F1DA7B0FE0C16E057E312064A03F9651 /* Debug */,
+				358030812A06F458E140C90F90800253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -767,6 +1153,15 @@
 			buildConfigurations = (
 				02E4D346EBD4B9B038FB4BD2E6A3215E /* Debug */,
 				80275F9110695F7DD8AFF68D4E9DE3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6981F1AE32403CF1A7C844CE88170372 /* Build configuration list for PBXNativeTarget "Pods-WokePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A65A1B14BA643B31FB2235C2CE59BE /* Debug */,
+				12925C65FFE95366106D980DF5521447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

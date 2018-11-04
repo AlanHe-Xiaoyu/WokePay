@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "35F97BBE91B9E009614003DFA840AFE8"
+               BlueprintIdentifier = "F70F57700282BA33037491477466B294"
                BuildableName = "Pods_WokePay.framework"
                BlueprintName = "Pods-WokePay"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35F97BBE91B9E009614003DFA840AFE8"
+            BlueprintIdentifier = "F70F57700282BA33037491477466B294"
             BuildableName = "Pods_WokePay.framework"
             BlueprintName = "Pods-WokePay"
             ReferencedContainer = "container:Pods.xcodeproj">
