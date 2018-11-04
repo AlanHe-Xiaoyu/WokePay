@@ -1,16 +1,24 @@
 PODS:
+  - GradientProgressBar (1.2.4):
+    - Observable
+  - Observable (1.3.3)
   - pop (1.0.10)
 
 DEPENDENCIES:
+  - GradientProgressBar (~> 1.0)
   - pop (= 1.0.10)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - GradientProgressBar
+    - Observable
     - pop
 
 SPEC CHECKSUMS:
+  GradientProgressBar: 89bc1067cbc3a132d867b81778a32797b90a7fe2
+  Observable: 360b0132cef970a50bc69611df7fcbda46e91c34
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
 
-PODFILE CHECKSUM: 53a46df742dabef9055dea313dca1da1889dac83
+PODFILE CHECKSUM: 2850fed988dfaecf2a8f9af800e26dfa578bba76
 
 COCOAPODS: 1.5.3

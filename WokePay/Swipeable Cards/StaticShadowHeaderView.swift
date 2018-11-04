@@ -8,9 +8,12 @@
 
 import UIKit
 import CoreMotion
+import GradientProgressBar
 
 class StaticShadowHeaderView: UIView, NibView {
 
+    @IBOutlet var progress: GradientProgressBar!
+    
     @IBOutlet private weak var backgroundContainerView: UIView!
 
     /// Core Motion Manager
@@ -38,7 +41,15 @@ class StaticShadowHeaderView: UIView, NibView {
 
     override func layoutSubviews() {
         super.layoutSubviews()
-
+        progress.animationDuration = 0.5
+        
+        // Source: https://color.adobe.com/Pink-Flamingo-color-theme-10343714/
+        progress.gradientColorList = [
+            #colorLiteral(red: 0.9490196078, green: 0.3215686275, blue: 0.431372549, alpha: 1), #colorLiteral(red: 0.9450980392, green: 0.4784313725, blue: 0.5921568627, alpha: 1), #colorLiteral(red: 0.9529411765, green: 0.737254902, blue: 0.7843137255, alpha: 1), #colorLiteral(red: 0.4274509804, green: 0.8666666667, blue: 0.9490196078, alpha: 1), #colorLiteral(red: 0.7568627451, green: 0.9411764706, blue: 0.9568627451, alpha: 1)
+        ]
+        
+        let easeInBack = CAMediaTimingFunction(controlPoints: 0.600, -0.280, 0.735, 0.045)
+        progress.timingFunction = easeInBack
         configureShadow()
     }
 

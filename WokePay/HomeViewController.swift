@@ -9,12 +9,13 @@
 import UIKit
 
 class HomeViewController: UIViewController, SwipeableCardViewDataSource {
+    @IBOutlet var overview: StaticShadowHeaderView!
     
     @IBOutlet private weak var swipeableCardView: SwipeableCardViewContainer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        overview.progress.setProgress(overview.progress.progress + 0.7, animated: true)
         swipeableCardView.dataSource = self
     }
     
