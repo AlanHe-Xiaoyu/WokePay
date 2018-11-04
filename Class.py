@@ -84,10 +84,10 @@ class Purchase(object):
 
 	def measure_type(self):
 		# self.emo - self.feedback in range [-9, 9]
-		self.impulsion = (self.emo - self.feedback + 9) / 18 # Ranges from 0 to 1, with Neutral value at 0.5
+		self.impulsion = (- self.emo + self.feedback + 9) / 18 # Ranges from 0 to 1, with Neutral value at 0.5
 		self.impulse_proportion = self.impulsion * self.price
 
-		if self.impulsion > 0.5:
+		if self.impulsion < 0.5:
 			self.imp_type = "impulsion"
 		elif self.impulsion == 0.5:
 			self.imp_type = "neutral"
