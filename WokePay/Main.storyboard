@@ -17,12 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Cards Left." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gm-Im-TT0">
-                                <rect key="frame" x="132.33333333333334" y="376" width="110.33333333333334" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G8v-1W-3rj" customClass="StaticShadowHeaderView" customModule="WokePay" customModuleProvider="target">
                                 <rect key="frame" x="16" y="64" width="343" height="110"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -30,27 +24,63 @@
                                     <constraint firstAttribute="height" constant="110" id="qIa-aJ-BJT"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w8K-oz-Scp" customClass="SwipeableCardViewContainer" customModule="WokePay" customModuleProvider="target">
-                                <rect key="frame" x="5" y="186.66666666666663" width="365" height="400"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="top" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="Zn5-38-wyW">
+                                <rect key="frame" x="48" y="187" width="278" height="20.333333333333343"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Worth it" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IgD-xM-v8P">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emmm..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bP6-EE-qET">
+                                        <rect key="frame" x="211" y="0.0" width="67" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="400" id="mdS-bL-djT"/>
+                                    <constraint firstAttribute="height" constant="20.329999999999998" id="Vsk-Wf-cLb"/>
                                 </constraints>
-                            </view>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="3du-Gw-Hzn">
+                                <rect key="frame" x="0.0" y="210" width="375" height="200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MIU-bI-Djw" customClass="SwipeableCardViewContainer" customModule="WokePay" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="nl8-wU-BdE"/>
+                                            <constraint firstAttribute="height" constant="200" id="seX-18-hN3"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w8K-oz-Scp" customClass="SwipeableCardViewContainer" customModule="WokePay" customModuleProvider="target">
+                                        <rect key="frame" x="195" y="0.0" width="180" height="200"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="9O8-1h-e82"/>
+                                            <constraint firstAttribute="width" constant="180" id="kD1-hl-5CJ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Dea-Ce-M4N"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="w8K-oz-Scp" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="5YV-47-XQ7"/>
-                            <constraint firstItem="w8K-oz-Scp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8Br-tM-Kpz"/>
-                            <constraint firstItem="w8K-oz-Scp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="8vE-dw-Qgv"/>
-                            <constraint firstItem="7gm-Im-TT0" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="AMa-L3-fXD"/>
+                            <constraint firstItem="3du-Gw-Hzn" firstAttribute="top" secondItem="Zn5-38-wyW" secondAttribute="bottom" constant="2.6666666666666572" id="Cmy-6q-zUC"/>
+                            <constraint firstItem="3du-Gw-Hzn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Gr1-EP-FkI"/>
                             <constraint firstItem="G8v-1W-3rj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HTR-7l-nbF"/>
+                            <constraint firstItem="Zn5-38-wyW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="Jbb-7A-Pnz"/>
                             <constraint firstItem="G8v-1W-3rj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="KLd-st-oRv"/>
                             <constraint firstItem="G8v-1W-3rj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KaP-pr-dXj"/>
-                            <constraint firstItem="7gm-Im-TT0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RJu-RQ-HHc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w8K-oz-Scp" secondAttribute="trailing" constant="5" id="YA0-vK-wkK"/>
-                            <constraint firstItem="w8K-oz-Scp" firstAttribute="top" relation="greaterThanOrEqual" secondItem="G8v-1W-3rj" secondAttribute="bottom" constant="10" id="mmZ-fg-tUt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zn5-38-wyW" secondAttribute="trailing" constant="49" id="bCC-oh-zcJ"/>
+                            <constraint firstItem="3du-Gw-Hzn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hwX-Zp-qfC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G8v-1W-3rj" secondAttribute="trailing" constant="16" id="rQj-ha-Vhb"/>
+                            <constraint firstItem="Zn5-38-wyW" firstAttribute="top" secondItem="G8v-1W-3rj" secondAttribute="bottom" constant="13" id="zcf-Fr-zdb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -58,6 +88,7 @@
                     <connections>
                         <outlet property="overview" destination="G8v-1W-3rj" id="J68-eJ-Gp1"/>
                         <outlet property="swipeableCardView" destination="w8K-oz-Scp" id="JNP-R5-hCO"/>
+                        <outlet property="worthCards" destination="MIU-bI-Djw" id="K2k-Jq-kJg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

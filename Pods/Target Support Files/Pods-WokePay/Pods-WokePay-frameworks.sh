@@ -143,11 +143,13 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AAInfographics/AAInfographics.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GradientProgressBar/GradientProgressBar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Observable/Observable.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AAInfographics/AAInfographics.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GradientProgressBar/GradientProgressBar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Observable/Observable.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"

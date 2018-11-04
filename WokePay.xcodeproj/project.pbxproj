@@ -35,6 +35,8 @@
 		5D7F719D218E50680071E4A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F719B218E50680071E4A1 /* LaunchScreen.storyboard */; };
 		5D7F71A8218E50680071E4A1 /* WokePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F71A7218E50680071E4A1 /* WokePayTests.swift */; };
 		5D7F71B3218E50680071E4A1 /* WokePayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F71B2218E50680071E4A1 /* WokePayUITests.swift */; };
+		5DC197E2218EB44E0047B098 /* Alan_test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC197DF218EB44E0047B098 /* Alan_test.storyboard */; };
+		5DC197E4218EB44E0047B098 /* AH_test_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC197E1218EB44E0047B098 /* AH_test_ViewController.swift */; };
 		BA7AB23D7F75BA24762AF239 /* Pods_WokePayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */; };
 		CAA669A49588ACC2821AB9CA /* Pods_WokePayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */; };
 /* End PBXBuildFile section */
@@ -93,6 +95,8 @@
 		5D7F71AE218E50680071E4A1 /* WokePayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WokePayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7F71B2218E50680071E4A1 /* WokePayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WokePayUITests.swift; sourceTree = "<group>"; };
 		5D7F71B4218E50680071E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC197DF218EB44E0047B098 /* Alan_test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alan_test.storyboard; sourceTree = "<group>"; };
+		5DC197E1218EB44E0047B098 /* AH_test_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AH_test_ViewController.swift; sourceTree = "<group>"; };
 		7B8DBBE893967B8425D6403F /* Pods-WokePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayTests/Pods-WokePayTests.release.xcconfig"; sourceTree = "<group>"; };
 		80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC979703636842548362194 /* Pods_WokePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,6 +195,8 @@
 				5D735F32218EA227007F98F5 /* YY_test.storyboard */,
 				5D735F38218EA3A1007F98F5 /* SampleSwipeableCard.xib */,
 				5D735F59218EA477007F98F5 /* Main.storyboard */,
+				5DC197E1218EB44E0047B098 /* AH_test_ViewController.swift */,
+				5DC197DF218EB44E0047B098 /* Alan_test.storyboard */,
 				5D735F39218EA3A1007F98F5 /* StaticShadowHeaderView.xib */,
 				5D735F37218EA3A1007F98F5 /* SwipeableCardViewCard.xib */,
 				5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */,
@@ -347,6 +353,7 @@
 				5D735F5A218EA477007F98F5 /* Main.storyboard in Resources */,
 				5D735F3A218EA3A1007F98F5 /* SwipeableCardViewCard.xib in Resources */,
 				5D7F719A218E50680071E4A1 /* Assets.xcassets in Resources */,
+				5DC197E2218EB44E0047B098 /* Alan_test.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +405,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WokePay/Pods-WokePay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AAInfographics/AAInfographics.framework",
 				"${BUILT_PRODUCTS_DIR}/GradientProgressBar/GradientProgressBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Observable/Observable.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
@@ -406,6 +414,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AAInfographics.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GradientProgressBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Observable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
@@ -475,6 +484,7 @@
 				5D735F55218EA3C1007F98F5 /* SwipeableCardViewCard.swift in Sources */,
 				5D735F4C218EA3C1007F98F5 /* SwipeableCardViewDelegate.swift in Sources */,
 				5D735F4F218EA3C1007F98F5 /* SwipeableView.swift in Sources */,
+				5DC197E4218EB44E0047B098 /* AH_test_ViewController.swift in Sources */,
 				5D7F7193218E50670071E4A1 /* AppDelegate.swift in Sources */,
 				5D735F34218EA227007F98F5 /* YY_test_ViewController.swift in Sources */,
 				5D735F53218EA3C1007F98F5 /* SampleSwipeableCard.swift in Sources */,
@@ -658,6 +668,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePay;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -677,6 +688,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePay;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

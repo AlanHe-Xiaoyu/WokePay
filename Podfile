@@ -7,6 +7,8 @@ target 'WokePay' do
   # Pods for WokePay
   pod 'pop', '1.0.10'
   pod 'GradientProgressBar', '~> 1.0'
+  pod 'AAInfographics'
+
   target 'WokePayTests' do
     inherit! :search_paths
     # Pods for testing
