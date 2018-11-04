@@ -1,713 +1,742 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 50;
-	objects = {
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 50;
+    objects = {
 
 /* Begin PBXBuildFile section */
-		0CDB9486A6CA4AF53446D38F /* Pods_WokePay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC979703636842548362194 /* Pods_WokePay.framework */; };
-		5D1E04D7218E940D00485FB0 /* PayDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */; };
-		5D7F7193218E50670071E4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F7192218E50670071E4A1 /* AppDelegate.swift */; };
-		5D7F7195218E50670071E4A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F7194218E50670071E4A1 /* ViewController.swift */; };
-		5D7F7198218E50670071E4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F7196218E50670071E4A1 /* Main.storyboard */; };
-		5D7F719A218E50680071E4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F7199218E50680071E4A1 /* Assets.xcassets */; };
-		5D7F719D218E50680071E4A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F719B218E50680071E4A1 /* LaunchScreen.storyboard */; };
-		5D7F71A8218E50680071E4A1 /* WokePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F71A7218E50680071E4A1 /* WokePayTests.swift */; };
-		5D7F71B3218E50680071E4A1 /* WokePayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F71B2218E50680071E4A1 /* WokePayUITests.swift */; };
-		BA7AB23D7F75BA24762AF239 /* Pods_WokePayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */; };
-		CAA669A49588ACC2821AB9CA /* Pods_WokePayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */; };
+        0CDB9486A6CA4AF53446D38F /* Pods_WokePay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC979703636842548362194 /* Pods_WokePay.framework */; };
+        5D1E04D7218E940D00485FB0 /* PayDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */; };
+        5D7F7193218E50670071E4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F7192218E50670071E4A1 /* AppDelegate.swift */; };
+        5D7F7195218E50670071E4A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F7194218E50670071E4A1 /* ViewController.swift */; };
+        5D7F7198218E50670071E4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F7196218E50670071E4A1 /* Main.storyboard */; };
+        5D7F719A218E50680071E4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F7199218E50680071E4A1 /* Assets.xcassets */; };
+        5D7F719D218E50680071E4A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F719B218E50680071E4A1 /* LaunchScreen.storyboard */; };
+        5D7F71A8218E50680071E4A1 /* WokePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F71A7218E50680071E4A1 /* WokePayTests.swift */; };
+        5D7F71B3218E50680071E4A1 /* WokePayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F71B2218E50680071E4A1 /* WokePayUITests.swift */; };
+        BA7AB23D7F75BA24762AF239 /* Pods_WokePayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */; };
+        CAA669A49588ACC2821AB9CA /* Pods_WokePayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */; };
+        E7BE2CFD218E93AB00560866 /* AH_test_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BE2CFC218E93AB00560866 /* AH_test_ViewController.swift */; };
+        E7BE2CFF218E951900560866 /* Alan_test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BE2CFE218E951900560866 /* Alan_test.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D7F71A4218E50680071E4A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D7F7187218E50670071E4A1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D7F718E218E50670071E4A1;
-			remoteInfo = WokePay;
-		};
-		5D7F71AF218E50680071E4A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D7F7187218E50670071E4A1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D7F718E218E50670071E4A1;
-			remoteInfo = WokePay;
-		};
+        5D7F71A4218E50680071E4A1 /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = 5D7F7187218E50670071E4A1 /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = 5D7F718E218E50670071E4A1;
+            remoteInfo = WokePay;
+        };
+        5D7F71AF218E50680071E4A1 /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = 5D7F7187218E50670071E4A1 /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = 5D7F718E218E50670071E4A1;
+            remoteInfo = WokePay;
+        };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0771E59ACC4F8D6ED6A188B8 /* Pods-WokePay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePay.release.xcconfig"; path = "Pods/Target Support Files/Pods-WokePay/Pods-WokePay.release.xcconfig"; sourceTree = "<group>"; };
-		1646E50E5ADEC131EC481E22 /* Pods-WokePayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayUITests/Pods-WokePayUITests.release.xcconfig"; sourceTree = "<group>"; };
-		1C4A67B7467533915228B8BF /* Pods-WokePayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayUITests/Pods-WokePayUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		508E35EDB76C6B0CEED791AB /* Pods-WokePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WokePay/Pods-WokePay.debug.xcconfig"; sourceTree = "<group>"; };
-		5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PayDemo.storyboard; sourceTree = "<group>"; };
-		5D7F718F218E50670071E4A1 /* WokePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WokePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D7F7192218E50670071E4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D7F7194218E50670071E4A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5D7F7197218E50670071E4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5D7F7199218E50680071E4A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5D7F719C218E50680071E4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5D7F719E218E50680071E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D7F71A3218E50680071E4A1 /* WokePayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WokePayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D7F71A7218E50680071E4A1 /* WokePayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WokePayTests.swift; sourceTree = "<group>"; };
-		5D7F71A9218E50680071E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D7F71AE218E50680071E4A1 /* WokePayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WokePayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D7F71B2218E50680071E4A1 /* WokePayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WokePayUITests.swift; sourceTree = "<group>"; };
-		5D7F71B4218E50680071E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B8DBBE893967B8425D6403F /* Pods-WokePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayTests/Pods-WokePayTests.release.xcconfig"; sourceTree = "<group>"; };
-		80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DC979703636842548362194 /* Pods_WokePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93DC919E4B3268462A6C00A5 /* Pods-WokePayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayTests/Pods-WokePayTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+        0771E59ACC4F8D6ED6A188B8 /* Pods-WokePay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePay.release.xcconfig"; path = "Pods/Target Support Files/Pods-WokePay/Pods-WokePay.release.xcconfig"; sourceTree = "<group>"; };
+        1646E50E5ADEC131EC481E22 /* Pods-WokePayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayUITests/Pods-WokePayUITests.release.xcconfig"; sourceTree = "<group>"; };
+        1C4A67B7467533915228B8BF /* Pods-WokePayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayUITests/Pods-WokePayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+        508E35EDB76C6B0CEED791AB /* Pods-WokePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WokePay/Pods-WokePay.debug.xcconfig"; sourceTree = "<group>"; };
+        5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PayDemo.storyboard; sourceTree = "<group>"; };
+        5D7F718F218E50670071E4A1 /* WokePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WokePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        5D7F7192218E50670071E4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+        5D7F7194218E50670071E4A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+        5D7F7197218E50670071E4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+        5D7F7199218E50680071E4A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        5D7F719C218E50680071E4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+        5D7F719E218E50680071E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        5D7F71A3218E50680071E4A1 /* WokePayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WokePayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        5D7F71A7218E50680071E4A1 /* WokePayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WokePayTests.swift; sourceTree = "<group>"; };
+        5D7F71A9218E50680071E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        5D7F71AE218E50680071E4A1 /* WokePayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WokePayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        5D7F71B2218E50680071E4A1 /* WokePayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WokePayUITests.swift; sourceTree = "<group>"; };
+        5D7F71B4218E50680071E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        7B8DBBE893967B8425D6403F /* Pods-WokePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayTests/Pods-WokePayTests.release.xcconfig"; sourceTree = "<group>"; };
+        80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+        8DC979703636842548362194 /* Pods_WokePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+        93DC919E4B3268462A6C00A5 /* Pods-WokePayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayTests/Pods-WokePayTests.debug.xcconfig"; sourceTree = "<group>"; };
+        B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WokePayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+        E7BE2CFC218E93AB00560866 /* AH_test_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AH_test_ViewController.swift; sourceTree = "<group>"; };
+        E7BE2CFE218E951900560866 /* Alan_test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alan_test.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5D7F718C218E50670071E4A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0CDB9486A6CA4AF53446D38F /* Pods_WokePay.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D7F71A0218E50680071E4A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA7AB23D7F75BA24762AF239 /* Pods_WokePayTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D7F71AB218E50680071E4A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAA669A49588ACC2821AB9CA /* Pods_WokePayUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        5D7F718C218E50670071E4A1 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                0CDB9486A6CA4AF53446D38F /* Pods_WokePay.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        5D7F71A0218E50680071E4A1 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                BA7AB23D7F75BA24762AF239 /* Pods_WokePayTests.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        5D7F71AB218E50680071E4A1 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                CAA669A49588ACC2821AB9CA /* Pods_WokePayUITests.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		141FE60F44BEEFB63C2E1A66 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8DC979703636842548362194 /* Pods_WokePay.framework */,
-				B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */,
-				80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5D7F7186218E50670071E4A1 = {
-			isa = PBXGroup;
-			children = (
-				5D7F7191218E50670071E4A1 /* WokePay */,
-				5D7F71A6218E50680071E4A1 /* WokePayTests */,
-				5D7F71B1218E50680071E4A1 /* WokePayUITests */,
-				5D7F7190218E50670071E4A1 /* Products */,
-				9A3D00DB4551FA7574795214 /* Pods */,
-				141FE60F44BEEFB63C2E1A66 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		5D7F7190218E50670071E4A1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D7F718F218E50670071E4A1 /* WokePay.app */,
-				5D7F71A3218E50680071E4A1 /* WokePayTests.xctest */,
-				5D7F71AE218E50680071E4A1 /* WokePayUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5D7F7191218E50670071E4A1 /* WokePay */ = {
-			isa = PBXGroup;
-			children = (
-				5D7F7192218E50670071E4A1 /* AppDelegate.swift */,
-				5D7F7194218E50670071E4A1 /* ViewController.swift */,
-				5D7F7196218E50670071E4A1 /* Main.storyboard */,
+        141FE60F44BEEFB63C2E1A66 /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+                8DC979703636842548362194 /* Pods_WokePay.framework */,
+                B03F38605A4593103DCBAA60 /* Pods_WokePayTests.framework */,
+                80EBE9B0A7DA41693C22974B /* Pods_WokePayUITests.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+        5D7F7186218E50670071E4A1 = {
+            isa = PBXGroup;
+            children = (
+                5D7F7191218E50670071E4A1 /* WokePay */,
+                5D7F71A6218E50680071E4A1 /* WokePayTests */,
+                5D7F71B1218E50680071E4A1 /* WokePayUITests */,
+                5D7F7190218E50670071E4A1 /* Products */,
+                9A3D00DB4551FA7574795214 /* Pods */,
+                141FE60F44BEEFB63C2E1A66 /* Frameworks */,
+            );
+            sourceTree = "<group>";
+        };
+        5D7F7190218E50670071E4A1 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                5D7F718F218E50670071E4A1 /* WokePay.app */,
+                5D7F71A3218E50680071E4A1 /* WokePayTests.xctest */,
+                5D7F71AE218E50680071E4A1 /* WokePayUITests.xctest */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        5D7F7191218E50670071E4A1 /* WokePay */ = {
+            isa = PBXGroup;
+            children = (
+                5D7F7192218E50670071E4A1 /* AppDelegate.swift */,
+                5D7F7194218E50670071E4A1 /* ViewController.swift */,
+                5D7F7196218E50670071E4A1 /* Main.storyboard */,
 				5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */,
-				5D7F7199218E50680071E4A1 /* Assets.xcassets */,
-				5D7F719B218E50680071E4A1 /* LaunchScreen.storyboard */,
-				5D7F719E218E50680071E4A1 /* Info.plist */,
-			);
-			path = WokePay;
-			sourceTree = "<group>";
-		};
-		5D7F71A6218E50680071E4A1 /* WokePayTests */ = {
-			isa = PBXGroup;
-			children = (
-				5D7F71A7218E50680071E4A1 /* WokePayTests.swift */,
-				5D7F71A9218E50680071E4A1 /* Info.plist */,
-			);
-			path = WokePayTests;
-			sourceTree = "<group>";
-		};
-		5D7F71B1218E50680071E4A1 /* WokePayUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5D7F71B2218E50680071E4A1 /* WokePayUITests.swift */,
-				5D7F71B4218E50680071E4A1 /* Info.plist */,
-			);
-			path = WokePayUITests;
-			sourceTree = "<group>";
-		};
-		9A3D00DB4551FA7574795214 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				508E35EDB76C6B0CEED791AB /* Pods-WokePay.debug.xcconfig */,
-				0771E59ACC4F8D6ED6A188B8 /* Pods-WokePay.release.xcconfig */,
-				93DC919E4B3268462A6C00A5 /* Pods-WokePayTests.debug.xcconfig */,
-				7B8DBBE893967B8425D6403F /* Pods-WokePayTests.release.xcconfig */,
-				1C4A67B7467533915228B8BF /* Pods-WokePayUITests.debug.xcconfig */,
-				1646E50E5ADEC131EC481E22 /* Pods-WokePayUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
+                5D7F7199218E50680071E4A1 /* Assets.xcassets */,
+                5D7F719B218E50680071E4A1 /* LaunchScreen.storyboard */,
+                5D7F719E218E50680071E4A1 /* Info.plist */,
+            );
+            path = WokePay;
+            sourceTree = "<group>";
+        };
+        5D7F71A6218E50680071E4A1 /* WokePayTests */ = {
+            isa = PBXGroup;
+            children = (
+                5D7F71A7218E50680071E4A1 /* WokePayTests.swift */,
+                5D7F71A9218E50680071E4A1 /* Info.plist */,
+            );
+            path = WokePayTests;
+            sourceTree = "<group>";
+        };
+        5D7F71B1218E50680071E4A1 /* WokePayUITests */ = {
+            isa = PBXGroup;
+            children = (
+                5D7F71B2218E50680071E4A1 /* WokePayUITests.swift */,
+                5D7F71B4218E50680071E4A1 /* Info.plist */,
+            );
+            path = WokePayUITests;
+            sourceTree = "<group>";
+        };
+        9A3D00DB4551FA7574795214 /* Pods */ = {
+            isa = PBXGroup;
+            children = (
+                508E35EDB76C6B0CEED791AB /* Pods-WokePay.debug.xcconfig */,
+                0771E59ACC4F8D6ED6A188B8 /* Pods-WokePay.release.xcconfig */,
+                93DC919E4B3268462A6C00A5 /* Pods-WokePayTests.debug.xcconfig */,
+                7B8DBBE893967B8425D6403F /* Pods-WokePayTests.release.xcconfig */,
+                1C4A67B7467533915228B8BF /* Pods-WokePayUITests.debug.xcconfig */,
+                1646E50E5ADEC131EC481E22 /* Pods-WokePayUITests.release.xcconfig */,
+            );
+            name = Pods;
+            sourceTree = "<group>";
+        };
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D7F718E218E50670071E4A1 /* WokePay */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D7F71B7218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePay" */;
-			buildPhases = (
-				A35923845488E2EA9CCCA21B /* [CP] Check Pods Manifest.lock */,
-				5D7F718B218E50670071E4A1 /* Sources */,
-				5D7F718C218E50670071E4A1 /* Frameworks */,
-				5D7F718D218E50670071E4A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WokePay;
-			productName = WokePay;
-			productReference = 5D7F718F218E50670071E4A1 /* WokePay.app */;
-			productType = "com.apple.product-type.application";
-		};
-		5D7F71A2218E50680071E4A1 /* WokePayTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D7F71BA218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePayTests" */;
-			buildPhases = (
-				9549A6C215D1621BE201C9CB /* [CP] Check Pods Manifest.lock */,
-				5D7F719F218E50680071E4A1 /* Sources */,
-				5D7F71A0218E50680071E4A1 /* Frameworks */,
-				5D7F71A1218E50680071E4A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5D7F71A5218E50680071E4A1 /* PBXTargetDependency */,
-			);
-			name = WokePayTests;
-			productName = WokePayTests;
-			productReference = 5D7F71A3218E50680071E4A1 /* WokePayTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5D7F71AD218E50680071E4A1 /* WokePayUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D7F71BD218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePayUITests" */;
-			buildPhases = (
-				EBD124C6F87A88051DF7DDEC /* [CP] Check Pods Manifest.lock */,
-				5D7F71AA218E50680071E4A1 /* Sources */,
-				5D7F71AB218E50680071E4A1 /* Frameworks */,
-				5D7F71AC218E50680071E4A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5D7F71B0218E50680071E4A1 /* PBXTargetDependency */,
-			);
-			name = WokePayUITests;
-			productName = WokePayUITests;
-			productReference = 5D7F71AE218E50680071E4A1 /* WokePayUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
+        5D7F718E218E50670071E4A1 /* WokePay */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 5D7F71B7218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePay" */;
+            buildPhases = (
+                A35923845488E2EA9CCCA21B /* [CP] Check Pods Manifest.lock */,
+                5D7F718B218E50670071E4A1 /* Sources */,
+                5D7F718C218E50670071E4A1 /* Frameworks */,
+                5D7F718D218E50670071E4A1 /* Resources */,
+                DC5D06ECC018FD82AE137D5D /* [CP] Embed Pods Frameworks */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = WokePay;
+            productName = WokePay;
+            productReference = 5D7F718F218E50670071E4A1 /* WokePay.app */;
+            productType = "com.apple.product-type.application";
+        };
+        5D7F71A2218E50680071E4A1 /* WokePayTests */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 5D7F71BA218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePayTests" */;
+            buildPhases = (
+                9549A6C215D1621BE201C9CB /* [CP] Check Pods Manifest.lock */,
+                5D7F719F218E50680071E4A1 /* Sources */,
+                5D7F71A0218E50680071E4A1 /* Frameworks */,
+                5D7F71A1218E50680071E4A1 /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+                5D7F71A5218E50680071E4A1 /* PBXTargetDependency */,
+            );
+            name = WokePayTests;
+            productName = WokePayTests;
+            productReference = 5D7F71A3218E50680071E4A1 /* WokePayTests.xctest */;
+            productType = "com.apple.product-type.bundle.unit-test";
+        };
+        5D7F71AD218E50680071E4A1 /* WokePayUITests */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 5D7F71BD218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePayUITests" */;
+            buildPhases = (
+                EBD124C6F87A88051DF7DDEC /* [CP] Check Pods Manifest.lock */,
+                5D7F71AA218E50680071E4A1 /* Sources */,
+                5D7F71AB218E50680071E4A1 /* Frameworks */,
+                5D7F71AC218E50680071E4A1 /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+                5D7F71B0218E50680071E4A1 /* PBXTargetDependency */,
+            );
+            name = WokePayUITests;
+            productName = WokePayUITests;
+            productReference = 5D7F71AE218E50680071E4A1 /* WokePayUITests.xctest */;
+            productType = "com.apple.product-type.bundle.ui-testing";
+        };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5D7F7187218E50670071E4A1 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = "Rui Zhou";
-				TargetAttributes = {
-					5D7F718E218E50670071E4A1 = {
-						CreatedOnToolsVersion = 10.0;
-					};
-					5D7F71A2218E50680071E4A1 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 5D7F718E218E50670071E4A1;
-					};
-					5D7F71AD218E50680071E4A1 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 5D7F718E218E50670071E4A1;
-					};
-				};
-			};
-			buildConfigurationList = 5D7F718A218E50670071E4A1 /* Build configuration list for PBXProject "WokePay" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 5D7F7186218E50670071E4A1;
-			productRefGroup = 5D7F7190218E50670071E4A1 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				5D7F718E218E50670071E4A1 /* WokePay */,
-				5D7F71A2218E50680071E4A1 /* WokePayTests */,
-				5D7F71AD218E50680071E4A1 /* WokePayUITests */,
-			);
-		};
+        5D7F7187218E50670071E4A1 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastSwiftUpdateCheck = 1000;
+                LastUpgradeCheck = 1000;
+                ORGANIZATIONNAME = "Rui Zhou";
+                TargetAttributes = {
+                    5D7F718E218E50670071E4A1 = {
+                        CreatedOnToolsVersion = 10.0;
+                    };
+                    5D7F71A2218E50680071E4A1 = {
+                        CreatedOnToolsVersion = 10.0;
+                        TestTargetID = 5D7F718E218E50670071E4A1;
+                    };
+                    5D7F71AD218E50680071E4A1 = {
+                        CreatedOnToolsVersion = 10.0;
+                        TestTargetID = 5D7F718E218E50670071E4A1;
+                    };
+                };
+            };
+            buildConfigurationList = 5D7F718A218E50670071E4A1 /* Build configuration list for PBXProject "WokePay" */;
+            compatibilityVersion = "Xcode 9.3";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = 5D7F7186218E50670071E4A1;
+            productRefGroup = 5D7F7190218E50670071E4A1 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                5D7F718E218E50670071E4A1 /* WokePay */,
+                5D7F71A2218E50680071E4A1 /* WokePayTests */,
+                5D7F71AD218E50680071E4A1 /* WokePayUITests */,
+            );
+        };
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5D7F718D218E50670071E4A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D1E04D7218E940D00485FB0 /* PayDemo.storyboard in Resources */,
-				5D7F719D218E50680071E4A1 /* LaunchScreen.storyboard in Resources */,
-				5D7F719A218E50680071E4A1 /* Assets.xcassets in Resources */,
-				5D7F7198218E50670071E4A1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D7F71A1218E50680071E4A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D7F71AC218E50680071E4A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        5D7F718D218E50670071E4A1 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                5D1E04D7218E940D00485FB0 /* PayDemo.storyboard in Resources */,
+                5D7F719D218E50680071E4A1 /* LaunchScreen.storyboard in Resources */,
+                5D7F719A218E50680071E4A1 /* Assets.xcassets in Resources */,
+                E7BE2CFF218E951900560866 /* Alan_test.storyboard in Resources */,
+                5D7F7198218E50670071E4A1 /* Main.storyboard in Resources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        5D7F71A1218E50680071E4A1 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        5D7F71AC218E50680071E4A1 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9549A6C215D1621BE201C9CB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WokePayTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A35923845488E2EA9CCCA21B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WokePay-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EBD124C6F87A88051DF7DDEC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WokePayUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
+        9549A6C215D1621BE201C9CB /* [CP] Check Pods Manifest.lock */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputFileListPaths = (
+            );
+            inputPaths = (
+                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+                "${PODS_ROOT}/Manifest.lock",
+            );
+            name = "[CP] Check Pods Manifest.lock";
+            outputFileListPaths = (
+            );
+            outputPaths = (
+                "$(DERIVED_FILE_DIR)/Pods-WokePayTests-checkManifestLockResult.txt",
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+            showEnvVarsInLog = 0;
+        };
+        A35923845488E2EA9CCCA21B /* [CP] Check Pods Manifest.lock */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputFileListPaths = (
+            );
+            inputPaths = (
+                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+                "${PODS_ROOT}/Manifest.lock",
+            );
+            name = "[CP] Check Pods Manifest.lock";
+            outputFileListPaths = (
+            );
+            outputPaths = (
+                "$(DERIVED_FILE_DIR)/Pods-WokePay-checkManifestLockResult.txt",
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+            showEnvVarsInLog = 0;
+        };
+        DC5D06ECC018FD82AE137D5D /* [CP] Embed Pods Frameworks */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputFileListPaths = (
+            );
+            inputPaths = (
+                "${SRCROOT}/Pods/Target Support Files/Pods-WokePay/Pods-WokePay-frameworks.sh",
+                "${BUILT_PRODUCTS_DIR}/XYPieChart/XYPieChart.framework",
+            );
+            name = "[CP] Embed Pods Frameworks";
+            outputFileListPaths = (
+            );
+            outputPaths = (
+                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYPieChart.framework",
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WokePay/Pods-WokePay-frameworks.sh\"\n";
+            showEnvVarsInLog = 0;
+        };
+        EBD124C6F87A88051DF7DDEC /* [CP] Check Pods Manifest.lock */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputFileListPaths = (
+            );
+            inputPaths = (
+                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+                "${PODS_ROOT}/Manifest.lock",
+            );
+            name = "[CP] Check Pods Manifest.lock";
+            outputFileListPaths = (
+            );
+            outputPaths = (
+                "$(DERIVED_FILE_DIR)/Pods-WokePayUITests-checkManifestLockResult.txt",
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+            showEnvVarsInLog = 0;
+        };
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5D7F718B218E50670071E4A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D7F7195218E50670071E4A1 /* ViewController.swift in Sources */,
-				5D7F7193218E50670071E4A1 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D7F719F218E50680071E4A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D7F71A8218E50680071E4A1 /* WokePayTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D7F71AA218E50680071E4A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D7F71B3218E50680071E4A1 /* WokePayUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        5D7F718B218E50670071E4A1 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                E7BE2CFD218E93AB00560866 /* AH_test_ViewController.swift in Sources */,
+                5D7F7195218E50670071E4A1 /* ViewController.swift in Sources */,
+                5D7F7193218E50670071E4A1 /* AppDelegate.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        5D7F719F218E50680071E4A1 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                5D7F71A8218E50680071E4A1 /* WokePayTests.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        5D7F71AA218E50680071E4A1 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                5D7F71B3218E50680071E4A1 /* WokePayUITests.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5D7F71A5218E50680071E4A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D7F718E218E50670071E4A1 /* WokePay */;
-			targetProxy = 5D7F71A4218E50680071E4A1 /* PBXContainerItemProxy */;
-		};
-		5D7F71B0218E50680071E4A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D7F718E218E50670071E4A1 /* WokePay */;
-			targetProxy = 5D7F71AF218E50680071E4A1 /* PBXContainerItemProxy */;
-		};
+        5D7F71A5218E50680071E4A1 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = 5D7F718E218E50670071E4A1 /* WokePay */;
+            targetProxy = 5D7F71A4218E50680071E4A1 /* PBXContainerItemProxy */;
+        };
+        5D7F71B0218E50680071E4A1 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = 5D7F718E218E50670071E4A1 /* WokePay */;
+            targetProxy = 5D7F71AF218E50680071E4A1 /* PBXContainerItemProxy */;
+        };
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5D7F7196218E50670071E4A1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D7F7197218E50670071E4A1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5D7F719B218E50680071E4A1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D7F719C218E50680071E4A1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
+        5D7F7196218E50670071E4A1 /* Main.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                5D7F7197218E50670071E4A1 /* Base */,
+            );
+            name = Main.storyboard;
+            sourceTree = "<group>";
+        };
+        5D7F719B218E50680071E4A1 /* LaunchScreen.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                5D7F719C218E50680071E4A1 /* Base */,
+            );
+            name = LaunchScreen.storyboard;
+            sourceTree = "<group>";
+        };
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5D7F71B5218E50680071E4A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		5D7F71B6218E50680071E4A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5D7F71B8218E50680071E4A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 508E35EDB76C6B0CEED791AB /* Pods-WokePay.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DZV24RZ776;
-				INFOPLIST_FILE = WokePay/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePay;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5D7F71B9218E50680071E4A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0771E59ACC4F8D6ED6A188B8 /* Pods-WokePay.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DZV24RZ776;
-				INFOPLIST_FILE = WokePay/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePay;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5D7F71BB218E50680071E4A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93DC919E4B3268462A6C00A5 /* Pods-WokePayTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DZV24RZ776;
-				INFOPLIST_FILE = WokePayTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePayTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WokePay.app/WokePay";
-			};
-			name = Debug;
-		};
-		5D7F71BC218E50680071E4A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B8DBBE893967B8425D6403F /* Pods-WokePayTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DZV24RZ776;
-				INFOPLIST_FILE = WokePayTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePayTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WokePay.app/WokePay";
-			};
-			name = Release;
-		};
-		5D7F71BE218E50680071E4A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C4A67B7467533915228B8BF /* Pods-WokePayUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DZV24RZ776;
-				INFOPLIST_FILE = WokePayUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePayUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WokePay;
-			};
-			name = Debug;
-		};
-		5D7F71BF218E50680071E4A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1646E50E5ADEC131EC481E22 /* Pods-WokePayUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DZV24RZ776;
-				INFOPLIST_FILE = WokePayUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePayUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WokePay;
-			};
-			name = Release;
-		};
+        5D7F71B5218E50680071E4A1 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_TESTABILITY = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+                MTL_FAST_MATH = YES;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        5D7F71B6218E50680071E4A1 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                ENABLE_NS_ASSERTIONS = NO;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+                MTL_ENABLE_DEBUG_INFO = NO;
+                MTL_FAST_MATH = YES;
+                SDKROOT = iphoneos;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        5D7F71B8218E50680071E4A1 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 508E35EDB76C6B0CEED791AB /* Pods-WokePay.debug.xcconfig */;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = DZV24RZ776;
+                INFOPLIST_FILE = WokePay/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePay;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        5D7F71B9218E50680071E4A1 /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 0771E59ACC4F8D6ED6A188B8 /* Pods-WokePay.release.xcconfig */;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = DZV24RZ776;
+                INFOPLIST_FILE = WokePay/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePay;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+        5D7F71BB218E50680071E4A1 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 93DC919E4B3268462A6C00A5 /* Pods-WokePayTests.debug.xcconfig */;
+            buildSettings = {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+                BUNDLE_LOADER = "$(TEST_HOST)";
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = DZV24RZ776;
+                INFOPLIST_FILE = WokePayTests/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                    "@loader_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePayTests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WokePay.app/WokePay";
+            };
+            name = Debug;
+        };
+        5D7F71BC218E50680071E4A1 /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 7B8DBBE893967B8425D6403F /* Pods-WokePayTests.release.xcconfig */;
+            buildSettings = {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+                BUNDLE_LOADER = "$(TEST_HOST)";
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = DZV24RZ776;
+                INFOPLIST_FILE = WokePayTests/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                    "@loader_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePayTests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WokePay.app/WokePay";
+            };
+            name = Release;
+        };
+        5D7F71BE218E50680071E4A1 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 1C4A67B7467533915228B8BF /* Pods-WokePayUITests.debug.xcconfig */;
+            buildSettings = {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = DZV24RZ776;
+                INFOPLIST_FILE = WokePayUITests/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                    "@loader_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePayUITests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                TEST_TARGET_NAME = WokePay;
+            };
+            name = Debug;
+        };
+        5D7F71BF218E50680071E4A1 /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 1646E50E5ADEC131EC481E22 /* Pods-WokePayUITests.release.xcconfig */;
+            buildSettings = {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = DZV24RZ776;
+                INFOPLIST_FILE = WokePayUITests/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                    "@loader_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = com.RuiZhou.WokePayUITests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                TEST_TARGET_NAME = WokePay;
+            };
+            name = Release;
+        };
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D7F718A218E50670071E4A1 /* Build configuration list for PBXProject "WokePay" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D7F71B5218E50680071E4A1 /* Debug */,
-				5D7F71B6218E50680071E4A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D7F71B7218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePay" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D7F71B8218E50680071E4A1 /* Debug */,
-				5D7F71B9218E50680071E4A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D7F71BA218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePayTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D7F71BB218E50680071E4A1 /* Debug */,
-				5D7F71BC218E50680071E4A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D7F71BD218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePayUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D7F71BE218E50680071E4A1 /* Debug */,
-				5D7F71BF218E50680071E4A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+        5D7F718A218E50670071E4A1 /* Build configuration list for PBXProject "WokePay" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                5D7F71B5218E50680071E4A1 /* Debug */,
+                5D7F71B6218E50680071E4A1 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        5D7F71B7218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePay" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                5D7F71B8218E50680071E4A1 /* Debug */,
+                5D7F71B9218E50680071E4A1 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        5D7F71BA218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePayTests" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                5D7F71BB218E50680071E4A1 /* Debug */,
+                5D7F71BC218E50680071E4A1 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        5D7F71BD218E50680071E4A1 /* Build configuration list for PBXNativeTarget "WokePayUITests" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                5D7F71BE218E50680071E4A1 /* Debug */,
+                5D7F71BF218E50680071E4A1 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
 /* End XCConfigurationList section */
-	};
-	rootObject = 5D7F7187218E50670071E4A1 /* Project object */;
+    };
+    rootObject = 5D7F7187218E50670071E4A1 /* Project object */;
 }
