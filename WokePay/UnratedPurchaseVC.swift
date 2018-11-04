@@ -16,6 +16,7 @@ class UnratedPurchaseVC: UIViewController, SwipeableCardViewDataSource {
     
     
     @IBOutlet var cards: SwipeableCardViewContainer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         cards.dataSource = self
@@ -93,7 +94,8 @@ extension UnratedPurchaseVC {
         let a = PurchaseCardModel(name: "Burger",amount: "$8.60",date:"Nov 3, 2018",merchant:"Super Duper", color: UIColor.white,image: #imageLiteral(resourceName: "hamburger"))
         let b = PurchaseCardModel(name: "Metro",amount: "$2.50",date:"Nov 2, 2018",merchant:"NY Metro", color: UIColor.white,image: #imageLiteral(resourceName: "subway"))
         let c = PurchaseCardModel(name: "AA",amount: "$500",date:"Nov 4, 2018", merchant:"Saks Fifth Avenue", color: UIColor.white,image: #imageLiteral(resourceName: "hamburger"))
-        return [a,b,c]
+        
+        return [a, b, c]
     }
 }
 
