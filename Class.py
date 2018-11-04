@@ -87,7 +87,7 @@ class Purchase(object):
 		self.impulsion = (self.emo - self.feedback + 9) / 18 # Ranges from 0 to 1, with Neutral value at 0.5
 		self.impulse_proportion = self.impulsion * self.price
 
-		if self.impulsion < 0.5:
+		if self.impulsion > 0.5:
 			self.imp_type = "impulsion"
 		elif self.impulsion == 0.5:
 			self.imp_type = "neutral"
