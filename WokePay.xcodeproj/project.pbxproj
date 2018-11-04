@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0CDB9486A6CA4AF53446D38F /* Pods_WokePay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC979703636842548362194 /* Pods_WokePay.framework */; };
+		5D1E04D7218E940D00485FB0 /* PayDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */; };
 		5D7F7193218E50670071E4A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F7192218E50670071E4A1 /* AppDelegate.swift */; };
 		5D7F7195218E50670071E4A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F7194218E50670071E4A1 /* ViewController.swift */; };
 		5D7F7198218E50670071E4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F7196218E50670071E4A1 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		1646E50E5ADEC131EC481E22 /* Pods-WokePayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayUITests/Pods-WokePayUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1C4A67B7467533915228B8BF /* Pods-WokePayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WokePayUITests/Pods-WokePayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		508E35EDB76C6B0CEED791AB /* Pods-WokePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WokePay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WokePay/Pods-WokePay.debug.xcconfig"; sourceTree = "<group>"; };
+		5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PayDemo.storyboard; sourceTree = "<group>"; };
 		5D7F718F218E50670071E4A1 /* WokePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WokePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7F7192218E50670071E4A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D7F7194218E50670071E4A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				5D7F7192218E50670071E4A1 /* AppDelegate.swift */,
 				5D7F7194218E50670071E4A1 /* ViewController.swift */,
 				5D7F7196218E50670071E4A1 /* Main.storyboard */,
+				5D1E04D6218E940D00485FB0 /* PayDemo.storyboard */,
 				5D7F7199218E50680071E4A1 /* Assets.xcassets */,
 				5D7F719B218E50680071E4A1 /* LaunchScreen.storyboard */,
 				5D7F719E218E50680071E4A1 /* Info.plist */,
@@ -272,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1E04D7218E940D00485FB0 /* PayDemo.storyboard in Resources */,
 				5D7F719D218E50680071E4A1 /* LaunchScreen.storyboard in Resources */,
 				5D7F719A218E50680071E4A1 /* Assets.xcassets in Resources */,
 				5D7F7198218E50670071E4A1 /* Main.storyboard in Resources */,
