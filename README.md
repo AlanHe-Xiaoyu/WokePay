@@ -10,4 +10,4 @@ Members of our team dreamed about having a personal finance app, WokePay, that c
 Our team plans on further developing the app so that we could incorporate the data analytics into WokePay by gathering more information from users to train for a better prediction/categorization model. <br/>
 <br/>
 
-[![Everything Is AWESOME](https://imgur.com/a/fEyCoI7)](https://youtu.be/LIbzlJjFIzc)
+[![ManyHorse](https://i.imgur.com/ohE4HuF.png)](https://youtu.be/LIbzlJjFIzc)
