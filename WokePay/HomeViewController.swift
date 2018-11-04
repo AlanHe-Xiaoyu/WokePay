@@ -61,12 +61,13 @@ class HomeViewController: UIViewController, SwipeableCardViewDataSource {
         
         aaChartModel = AAChartModel()
             .chartType(chartType!)//图形类型
-            .title("CYBERPUNK")//图形标题
-            .subtitle("2077/08/08")//图形副标题
+            .title("Worth-It Index")//图形标题
+            .subtitle("")//图形副标题
             .dataLabelEnabled(false)//是否显示数字
             .markerRadius(5)//折线连接点半径长度,为0时相当于没有折线连接点
             .colorsTheme(["#fe117c","#ffc069","#06caf4","#7dffc0"])
             .stacking(.normal)
+            .categories(["✈️", "🎓", "🎢", "💊", "🛍", "🥪"])
         
         if chartType == AAChartType.area
             || chartType == AAChartType.areaSpline {
@@ -112,13 +113,13 @@ class HomeViewController: UIViewController, SwipeableCardViewDataSource {
             aaChartModel?
                 .series([
                     AASeriesElement()
-                        .name("Tokyo")
+                        .name("%Satisfied")
                         .data([3.40, 2.90, 2.30, 3.15, 1.75, 2.75])
                         .color(gradientColorDic)
                         .step(step!)
                         .toDic()!,
                     AASeriesElement()
-                        .name("Berlin")
+                        .name("%Disappointed")
                         .data([1.60, 2.10, 2.70, 1.85, 3.25, 2.25])
                         .step(step!)
                         .toDic()!,
